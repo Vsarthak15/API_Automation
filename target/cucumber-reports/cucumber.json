@@ -1,0 +1,1852 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 12,
+        "name": "Validate \"postive case with value 1\" with page parameter",
+        "description": "",
+        "id": "agoda-test;validate-\"\u003cvalue\u003e\"-with-page-parameter;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 385221000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I add the url",
+            "match": {
+              "location": "StepDef.iAddTheurl()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3407900,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I add parameter \"pages\" with \"1\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "pages",
+                  "offset": 17
+                },
+                {
+                  "val": "1",
+                  "offset": 30
+                }
+              ],
+              "location": "StepDef.iAddParameters(String,String)"
+            },
+            "matchedColumns": [
+              1,
+              2
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1598257800,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I execute the API",
+            "match": {
+              "location": "StepDef.iExecuteAPI()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 217200,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I validate \"Resultcode\" with \"200\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Resultcode",
+                  "offset": 12
+                },
+                {
+                  "val": "200",
+                  "offset": 30
+                }
+              ],
+              "location": "StepDef.iValidateResponse(String,String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 3,
+            "name": "@Page"
+          },
+          {
+            "line": 3,
+            "name": "@All-API"
+          }
+        ]
+      },
+      {
+        "line": 13,
+        "name": "Validate \"negative case with value 20000\" with page parameter",
+        "description": "",
+        "id": "agoda-test;validate-\"\u003cvalue\u003e\"-with-page-parameter;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 179400,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I add the url",
+            "match": {
+              "location": "StepDef.iAddTheurl()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 252700,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I add parameter \"pages\" with \"20000\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "pages",
+                  "offset": 17
+                },
+                {
+                  "val": "20000",
+                  "offset": 30
+                }
+              ],
+              "location": "StepDef.iAddParameters(String,String)"
+            },
+            "matchedColumns": [
+              1,
+              2
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 989264100,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I execute the API",
+            "match": {
+              "location": "StepDef.iExecuteAPI()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 126300,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I validate \"Resultcode\" with \"200\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Resultcode",
+                  "offset": 12
+                },
+                {
+                  "val": "200",
+                  "offset": 30
+                }
+              ],
+              "location": "StepDef.iValidateResponse(String,String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 3,
+            "name": "@Page"
+          },
+          {
+            "line": 3,
+            "name": "@All-API"
+          }
+        ]
+      },
+      {
+        "line": 14,
+        "name": "Validate \"negative case with value !@\" with page parameter",
+        "description": "",
+        "id": "agoda-test;validate-\"\u003cvalue\u003e\"-with-page-parameter;;4",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 238200,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I add the url",
+            "match": {
+              "location": "StepDef.iAddTheurl()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 133200,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I add parameter \"pages\" with \"!@\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "pages",
+                  "offset": 17
+                },
+                {
+                  "val": "!@",
+                  "offset": 30
+                }
+              ],
+              "location": "StepDef.iAddParameters(String,String)"
+            },
+            "matchedColumns": [
+              1,
+              2
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 964236700,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I execute the API",
+            "match": {
+              "location": "StepDef.iExecuteAPI()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 103000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I validate \"Resultcode\" with \"200\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Resultcode",
+                  "offset": 12
+                },
+                {
+                  "val": "200",
+                  "offset": 30
+                }
+              ],
+              "location": "StepDef.iValidateResponse(String,String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 3,
+            "name": "@Page"
+          },
+          {
+            "line": 3,
+            "name": "@All-API"
+          }
+        ]
+      },
+      {
+        "line": 15,
+        "name": "Validate \"negative case with value 2abc\" with page parameter",
+        "description": "",
+        "id": "agoda-test;validate-\"\u003cvalue\u003e\"-with-page-parameter;;5",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 106300,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I add the url",
+            "match": {
+              "location": "StepDef.iAddTheurl()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 94200,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I add parameter \"pages\" with \"2abc\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "pages",
+                  "offset": 17
+                },
+                {
+                  "val": "2abc",
+                  "offset": 30
+                }
+              ],
+              "location": "StepDef.iAddParameters(String,String)"
+            },
+            "matchedColumns": [
+              1,
+              2
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 963321000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I execute the API",
+            "match": {
+              "location": "StepDef.iExecuteAPI()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 105900,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I validate \"Resultcode\" with \"200\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Resultcode",
+                  "offset": 12
+                },
+                {
+                  "val": "200",
+                  "offset": 30
+                }
+              ],
+              "location": "StepDef.iValidateResponse(String,String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 3,
+            "name": "@Page"
+          },
+          {
+            "line": 3,
+            "name": "@All-API"
+          }
+        ]
+      },
+      {
+        "line": 16,
+        "name": "Validate \"negative case with value xyz\" with page parameter",
+        "description": "",
+        "id": "agoda-test;validate-\"\u003cvalue\u003e\"-with-page-parameter;;6",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 191200,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I add the url",
+            "match": {
+              "location": "StepDef.iAddTheurl()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 157800,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I add parameter \"pages\" with \"xyz\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "pages",
+                  "offset": 17
+                },
+                {
+                  "val": "xyz",
+                  "offset": 30
+                }
+              ],
+              "location": "StepDef.iAddParameters(String,String)"
+            },
+            "matchedColumns": [
+              1,
+              2
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 963509600,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I execute the API",
+            "match": {
+              "location": "StepDef.iExecuteAPI()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3803800,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I validate \"Resultcode\" with \"200\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Resultcode",
+                  "offset": 12
+                },
+                {
+                  "val": "200",
+                  "offset": 30
+                }
+              ],
+              "location": "StepDef.iValidateResponse(String,String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 3,
+            "name": "@Page"
+          },
+          {
+            "line": 3,
+            "name": "@All-API"
+          }
+        ]
+      },
+      {
+        "line": 17,
+        "name": "Validate \"negative case with value -10\" with page parameter",
+        "description": "",
+        "id": "agoda-test;validate-\"\u003cvalue\u003e\"-with-page-parameter;;7",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 170600,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I add the url",
+            "match": {
+              "location": "StepDef.iAddTheurl()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 157400,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I add parameter \"pages\" with \"-10\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "pages",
+                  "offset": 17
+                },
+                {
+                  "val": "-10",
+                  "offset": 30
+                }
+              ],
+              "location": "StepDef.iAddParameters(String,String)"
+            },
+            "matchedColumns": [
+              1,
+              2
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1000102800,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I execute the API",
+            "match": {
+              "location": "StepDef.iExecuteAPI()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 110300,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I validate \"Resultcode\" with \"200\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Resultcode",
+                  "offset": 12
+                },
+                {
+                  "val": "200",
+                  "offset": 30
+                }
+              ],
+              "location": "StepDef.iValidateResponse(String,String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 3,
+            "name": "@Page"
+          },
+          {
+            "line": 3,
+            "name": "@All-API"
+          }
+        ]
+      },
+      {
+        "line": 28,
+        "name": "Validate \"postive case with value love-happiness\" with page parameter",
+        "description": "",
+        "id": "agoda-test;validate-\"\u003cvalue\u003e\"-with-page-parameter;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 192400,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "I add the url",
+            "match": {
+              "location": "StepDef.iAddTheurl()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 137400,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "I add parameter \"tags\" with \"love%7Chappiness\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "tags",
+                  "offset": 17
+                },
+                {
+                  "val": "love%7Chappiness",
+                  "offset": 29
+                }
+              ],
+              "location": "StepDef.iAddParameters(String,String)"
+            },
+            "matchedColumns": [
+              1,
+              2
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 967911400,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "I execute the API",
+            "match": {
+              "location": "StepDef.iExecuteAPI()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 98700,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "I validate \"Resultcode\" with \"200\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Resultcode",
+                  "offset": 12
+                },
+                {
+                  "val": "200",
+                  "offset": 30
+                }
+              ],
+              "location": "StepDef.iValidateResponse(String,String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 19,
+            "name": "@Tags"
+          },
+          {
+            "line": 19,
+            "name": "@All-API"
+          }
+        ]
+      },
+      {
+        "line": 29,
+        "name": "Validate \"postive case with value technology,famous-quotes\" with page parameter",
+        "description": "",
+        "id": "agoda-test;validate-\"\u003cvalue\u003e\"-with-page-parameter;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 179600,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "I add the url",
+            "match": {
+              "location": "StepDef.iAddTheurl()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 247600,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "I add parameter \"tags\" with \"technology,famous-quotes\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "tags",
+                  "offset": 17
+                },
+                {
+                  "val": "technology,famous-quotes",
+                  "offset": 29
+                }
+              ],
+              "location": "StepDef.iAddParameters(String,String)"
+            },
+            "matchedColumns": [
+              1,
+              2
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1000221600,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "I execute the API",
+            "match": {
+              "location": "StepDef.iExecuteAPI()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 80900,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "I validate \"Resultcode\" with \"200\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Resultcode",
+                  "offset": 12
+                },
+                {
+                  "val": "200",
+                  "offset": 30
+                }
+              ],
+              "location": "StepDef.iValidateResponse(String,String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 19,
+            "name": "@Tags"
+          },
+          {
+            "line": 19,
+            "name": "@All-API"
+          }
+        ]
+      },
+      {
+        "line": 30,
+        "name": "Validate \"negative case with value 20000\" with page parameter",
+        "description": "",
+        "id": "agoda-test;validate-\"\u003cvalue\u003e\"-with-page-parameter;;4",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 144700,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "I add the url",
+            "match": {
+              "location": "StepDef.iAddTheurl()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 158600,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "I add parameter \"tags\" with \"20000\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "tags",
+                  "offset": 17
+                },
+                {
+                  "val": "20000",
+                  "offset": 29
+                }
+              ],
+              "location": "StepDef.iAddParameters(String,String)"
+            },
+            "matchedColumns": [
+              1,
+              2
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 962360700,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "I execute the API",
+            "match": {
+              "location": "StepDef.iExecuteAPI()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 164600,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "I validate \"Resultcode\" with \"200\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Resultcode",
+                  "offset": 12
+                },
+                {
+                  "val": "200",
+                  "offset": 30
+                }
+              ],
+              "location": "StepDef.iValidateResponse(String,String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 19,
+            "name": "@Tags"
+          },
+          {
+            "line": 19,
+            "name": "@All-API"
+          }
+        ]
+      },
+      {
+        "line": 31,
+        "name": "Validate \"negative case with value !@\" with page parameter",
+        "description": "",
+        "id": "agoda-test;validate-\"\u003cvalue\u003e\"-with-page-parameter;;5",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 172300,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "I add the url",
+            "match": {
+              "location": "StepDef.iAddTheurl()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 152100,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "I add parameter \"tags\" with \"!@\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "tags",
+                  "offset": 17
+                },
+                {
+                  "val": "!@",
+                  "offset": 29
+                }
+              ],
+              "location": "StepDef.iAddParameters(String,String)"
+            },
+            "matchedColumns": [
+              1,
+              2
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 971093500,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "I execute the API",
+            "match": {
+              "location": "StepDef.iExecuteAPI()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 67600,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "I validate \"Resultcode\" with \"200\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Resultcode",
+                  "offset": 12
+                },
+                {
+                  "val": "200",
+                  "offset": 30
+                }
+              ],
+              "location": "StepDef.iValidateResponse(String,String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 19,
+            "name": "@Tags"
+          },
+          {
+            "line": 19,
+            "name": "@All-API"
+          }
+        ]
+      },
+      {
+        "line": 32,
+        "name": "Validate \"negative case with value 2abc\" with page parameter",
+        "description": "",
+        "id": "agoda-test;validate-\"\u003cvalue\u003e\"-with-page-parameter;;6",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 146500,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "I add the url",
+            "match": {
+              "location": "StepDef.iAddTheurl()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 207600,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "I add parameter \"tags\" with \"2abc\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "tags",
+                  "offset": 17
+                },
+                {
+                  "val": "2abc",
+                  "offset": 29
+                }
+              ],
+              "location": "StepDef.iAddParameters(String,String)"
+            },
+            "matchedColumns": [
+              1,
+              2
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 976351500,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "I execute the API",
+            "match": {
+              "location": "StepDef.iExecuteAPI()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 91700,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "I validate \"Resultcode\" with \"200\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Resultcode",
+                  "offset": 12
+                },
+                {
+                  "val": "200",
+                  "offset": 30
+                }
+              ],
+              "location": "StepDef.iValidateResponse(String,String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 19,
+            "name": "@Tags"
+          },
+          {
+            "line": 19,
+            "name": "@All-API"
+          }
+        ]
+      },
+      {
+        "line": 33,
+        "name": "Validate \"negative case with value xyz\" with page parameter",
+        "description": "",
+        "id": "agoda-test;validate-\"\u003cvalue\u003e\"-with-page-parameter;;7",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 151300,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "I add the url",
+            "match": {
+              "location": "StepDef.iAddTheurl()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 95000,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "I add parameter \"tags\" with \"xyz\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "tags",
+                  "offset": 17
+                },
+                {
+                  "val": "xyz",
+                  "offset": 29
+                }
+              ],
+              "location": "StepDef.iAddParameters(String,String)"
+            },
+            "matchedColumns": [
+              1,
+              2
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 982909200,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "I execute the API",
+            "match": {
+              "location": "StepDef.iExecuteAPI()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 99900,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "I validate \"Resultcode\" with \"200\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Resultcode",
+                  "offset": 12
+                },
+                {
+                  "val": "200",
+                  "offset": 30
+                }
+              ],
+              "location": "StepDef.iValidateResponse(String,String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 19,
+            "name": "@Tags"
+          },
+          {
+            "line": 19,
+            "name": "@All-API"
+          }
+        ]
+      },
+      {
+        "line": 34,
+        "name": "Validate \"negative case with value -10\" with page parameter",
+        "description": "",
+        "id": "agoda-test;validate-\"\u003cvalue\u003e\"-with-page-parameter;;8",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 217400,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "I add the url",
+            "match": {
+              "location": "StepDef.iAddTheurl()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 157700,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "I add parameter \"tags\" with \"-10\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "tags",
+                  "offset": 17
+                },
+                {
+                  "val": "-10",
+                  "offset": 29
+                }
+              ],
+              "location": "StepDef.iAddParameters(String,String)"
+            },
+            "matchedColumns": [
+              1,
+              2
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 971954000,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "I execute the API",
+            "match": {
+              "location": "StepDef.iExecuteAPI()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 119900,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "I validate \"Resultcode\" with \"200\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Resultcode",
+                  "offset": 12
+                },
+                {
+                  "val": "200",
+                  "offset": 30
+                }
+              ],
+              "location": "StepDef.iValidateResponse(String,String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 19,
+            "name": "@Tags"
+          },
+          {
+            "line": 19,
+            "name": "@All-API"
+          }
+        ]
+      },
+      {
+        "line": 45,
+        "name": "Validate \"postive case with value albert-einstein\" with page parameter",
+        "description": "",
+        "id": "agoda-test;validate-\"\u003cvalue\u003e\"-with-page-parameter;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 173100,
+              "status": "passed"
+            },
+            "line": 38,
+            "name": "I add the url",
+            "match": {
+              "location": "StepDef.iAddTheurl()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 168000,
+              "status": "passed"
+            },
+            "line": 39,
+            "name": "I add parameter \"author\" with \"albert-einstein\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "author",
+                  "offset": 17
+                },
+                {
+                  "val": "albert-einstein",
+                  "offset": 31
+                }
+              ],
+              "location": "StepDef.iAddParameters(String,String)"
+            },
+            "matchedColumns": [
+              1,
+              2
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1077404400,
+              "status": "passed"
+            },
+            "line": 40,
+            "name": "I execute the API",
+            "match": {
+              "location": "StepDef.iExecuteAPI()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 67900,
+              "status": "passed"
+            },
+            "line": 41,
+            "name": "I validate \"Resultcode\" with \"200\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Resultcode",
+                  "offset": 12
+                },
+                {
+                  "val": "200",
+                  "offset": 30
+                }
+              ],
+              "location": "StepDef.iValidateResponse(String,String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 36,
+            "name": "@Authors"
+          },
+          {
+            "line": 36,
+            "name": "@All-API"
+          }
+        ]
+      },
+      {
+        "line": 46,
+        "name": "Validate \"postive case with value asd@-eins232$3n\" with page parameter",
+        "description": "",
+        "id": "agoda-test;validate-\"\u003cvalue\u003e\"-with-page-parameter;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 228200,
+              "status": "passed"
+            },
+            "line": 38,
+            "name": "I add the url",
+            "match": {
+              "location": "StepDef.iAddTheurl()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 155600,
+              "status": "passed"
+            },
+            "line": 39,
+            "name": "I add parameter \"author\" with \"asd@-eins232$3n\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "author",
+                  "offset": 17
+                },
+                {
+                  "val": "asd@-eins232$3n",
+                  "offset": 31
+                }
+              ],
+              "location": "StepDef.iAddParameters(String,String)"
+            },
+            "matchedColumns": [
+              1,
+              2
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 971800000,
+              "status": "passed"
+            },
+            "line": 40,
+            "name": "I execute the API",
+            "match": {
+              "location": "StepDef.iExecuteAPI()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 112800,
+              "status": "passed"
+            },
+            "line": 41,
+            "name": "I validate \"Resultcode\" with \"200\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Resultcode",
+                  "offset": 12
+                },
+                {
+                  "val": "200",
+                  "offset": 30
+                }
+              ],
+              "location": "StepDef.iValidateResponse(String,String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 36,
+            "name": "@Authors"
+          },
+          {
+            "line": 36,
+            "name": "@All-API"
+          }
+        ]
+      },
+      {
+        "line": 47,
+        "name": "Validate \"negative case with value 20000\" with page parameter",
+        "description": "",
+        "id": "agoda-test;validate-\"\u003cvalue\u003e\"-with-page-parameter;;4",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 633000,
+              "status": "passed"
+            },
+            "line": 38,
+            "name": "I add the url",
+            "match": {
+              "location": "StepDef.iAddTheurl()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 448600,
+              "status": "passed"
+            },
+            "line": 39,
+            "name": "I add parameter \"author\" with \"20000\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "author",
+                  "offset": 17
+                },
+                {
+                  "val": "20000",
+                  "offset": 31
+                }
+              ],
+              "location": "StepDef.iAddParameters(String,String)"
+            },
+            "matchedColumns": [
+              1,
+              2
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 939774900,
+              "status": "passed"
+            },
+            "line": 40,
+            "name": "I execute the API",
+            "match": {
+              "location": "StepDef.iExecuteAPI()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 527100,
+              "status": "passed"
+            },
+            "line": 41,
+            "name": "I validate \"Resultcode\" with \"200\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Resultcode",
+                  "offset": 12
+                },
+                {
+                  "val": "200",
+                  "offset": 30
+                }
+              ],
+              "location": "StepDef.iValidateResponse(String,String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 36,
+            "name": "@Authors"
+          },
+          {
+            "line": 36,
+            "name": "@All-API"
+          }
+        ]
+      },
+      {
+        "line": 48,
+        "name": "Validate \"negative case with value !@\" with page parameter",
+        "description": "",
+        "id": "agoda-test;validate-\"\u003cvalue\u003e\"-with-page-parameter;;5",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 85300,
+              "status": "passed"
+            },
+            "line": 38,
+            "name": "I add the url",
+            "match": {
+              "location": "StepDef.iAddTheurl()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 75600,
+              "status": "passed"
+            },
+            "line": 39,
+            "name": "I add parameter \"author\" with \"!@\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "author",
+                  "offset": 17
+                },
+                {
+                  "val": "!@",
+                  "offset": 31
+                }
+              ],
+              "location": "StepDef.iAddParameters(String,String)"
+            },
+            "matchedColumns": [
+              1,
+              2
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 995670500,
+              "status": "passed"
+            },
+            "line": 40,
+            "name": "I execute the API",
+            "match": {
+              "location": "StepDef.iExecuteAPI()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 102100,
+              "status": "passed"
+            },
+            "line": 41,
+            "name": "I validate \"Resultcode\" with \"200\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Resultcode",
+                  "offset": 12
+                },
+                {
+                  "val": "200",
+                  "offset": 30
+                }
+              ],
+              "location": "StepDef.iValidateResponse(String,String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 36,
+            "name": "@Authors"
+          },
+          {
+            "line": 36,
+            "name": "@All-API"
+          }
+        ]
+      },
+      {
+        "line": 49,
+        "name": "Validate \"negative case with value 2abc\" with page parameter",
+        "description": "",
+        "id": "agoda-test;validate-\"\u003cvalue\u003e\"-with-page-parameter;;6",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 85000,
+              "status": "passed"
+            },
+            "line": 38,
+            "name": "I add the url",
+            "match": {
+              "location": "StepDef.iAddTheurl()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 83800,
+              "status": "passed"
+            },
+            "line": 39,
+            "name": "I add parameter \"author\" with \"2abc\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "author",
+                  "offset": 17
+                },
+                {
+                  "val": "2abc",
+                  "offset": 31
+                }
+              ],
+              "location": "StepDef.iAddParameters(String,String)"
+            },
+            "matchedColumns": [
+              1,
+              2
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 976514600,
+              "status": "passed"
+            },
+            "line": 40,
+            "name": "I execute the API",
+            "match": {
+              "location": "StepDef.iExecuteAPI()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 101100,
+              "status": "passed"
+            },
+            "line": 41,
+            "name": "I validate \"Resultcode\" with \"200\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Resultcode",
+                  "offset": 12
+                },
+                {
+                  "val": "200",
+                  "offset": 30
+                }
+              ],
+              "location": "StepDef.iValidateResponse(String,String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 36,
+            "name": "@Authors"
+          },
+          {
+            "line": 36,
+            "name": "@All-API"
+          }
+        ]
+      },
+      {
+        "line": 50,
+        "name": "Validate \"negative case with value xyz\" with page parameter",
+        "description": "",
+        "id": "agoda-test;validate-\"\u003cvalue\u003e\"-with-page-parameter;;7",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 126800,
+              "status": "passed"
+            },
+            "line": 38,
+            "name": "I add the url",
+            "match": {
+              "location": "StepDef.iAddTheurl()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 91900,
+              "status": "passed"
+            },
+            "line": 39,
+            "name": "I add parameter \"author\" with \"xyz\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "author",
+                  "offset": 17
+                },
+                {
+                  "val": "xyz",
+                  "offset": 31
+                }
+              ],
+              "location": "StepDef.iAddParameters(String,String)"
+            },
+            "matchedColumns": [
+              1,
+              2
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 942040700,
+              "status": "passed"
+            },
+            "line": 40,
+            "name": "I execute the API",
+            "match": {
+              "location": "StepDef.iExecuteAPI()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 101000,
+              "status": "passed"
+            },
+            "line": 41,
+            "name": "I validate \"Resultcode\" with \"200\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Resultcode",
+                  "offset": 12
+                },
+                {
+                  "val": "200",
+                  "offset": 30
+                }
+              ],
+              "location": "StepDef.iValidateResponse(String,String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 36,
+            "name": "@Authors"
+          },
+          {
+            "line": 36,
+            "name": "@All-API"
+          }
+        ]
+      },
+      {
+        "line": 51,
+        "name": "Validate \"negative case with value -10\" with page parameter",
+        "description": "",
+        "id": "agoda-test;validate-\"\u003cvalue\u003e\"-with-page-parameter;;8",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 147800,
+              "status": "passed"
+            },
+            "line": 38,
+            "name": "I add the url",
+            "match": {
+              "location": "StepDef.iAddTheurl()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 136300,
+              "status": "passed"
+            },
+            "line": 39,
+            "name": "I add parameter \"author\" with \"-10\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "author",
+                  "offset": 17
+                },
+                {
+                  "val": "-10",
+                  "offset": 31
+                }
+              ],
+              "location": "StepDef.iAddParameters(String,String)"
+            },
+            "matchedColumns": [
+              1,
+              2
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 956398000,
+              "status": "passed"
+            },
+            "line": 40,
+            "name": "I execute the API",
+            "match": {
+              "location": "StepDef.iExecuteAPI()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 78300,
+              "status": "passed"
+            },
+            "line": 41,
+            "name": "I validate \"Resultcode\" with \"200\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Resultcode",
+                  "offset": 12
+                },
+                {
+                  "val": "200",
+                  "offset": 30
+                }
+              ],
+              "location": "StepDef.iValidateResponse(String,String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 36,
+            "name": "@Authors"
+          },
+          {
+            "line": 36,
+            "name": "@All-API"
+          }
+        ]
+      }
+    ],
+    "name": "Agoda Test",
+    "description": "",
+    "id": "agoda-test",
+    "keyword": "Feature",
+    "uri": "GetAPI.feature"
+  }
+]
