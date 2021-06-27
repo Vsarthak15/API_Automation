@@ -2,5 +2,5 @@ package TestSDET.QuotableAPI;
 
 public class Base {
 	public static String getURL;
-	public static String actualResponse;
+	public static StringBuffer actualResponse=new StringBuffer();
 }

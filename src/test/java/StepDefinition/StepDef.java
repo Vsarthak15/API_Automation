@@ -1,5 +1,7 @@
 package StepDefinition;
 
+import org.testng.Assert;
+
 import TestSDET.QuotableAPI.Base;
 import TestSDET.QuotableAPI.ReqResMethod;
 import cucumber.api.java.en.And;
@@ -34,6 +36,14 @@ public class StepDef
 	
 	@Then("^I validate \"(.*?)\" with \"(.*?)\"$")
     public void iValidateResponse(String p1, String v1){
+        String ptr=reqRes.validateResponse(p1);
+        System.out.println("======================"+"Expected Value:"+ v1);
+        System.out.println("======================"+"Actual Value:"+ ptr);
+        if(!ptr.toLowerCase().equalsIgnoreCase(v1)){
+        	Assert.assertEquals(ptr,v1);
+        }else {
+        	System.out.println("======================Assertion Passed");
+        }
         
     }
 }
