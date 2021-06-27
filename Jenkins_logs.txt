@@ -1,41 +1,11 @@
-Started by user Admin 
-Running as SYSTEM
-Building in workspace C:\Windows\system32\config\systemprofile\AppData\Local\Jenkins\.jenkins\workspace\API Automation
-Parsing POMs
-Modules changed, recalculating dependency graph
-Established TCP socket on 12840
-[QuotableAPI] $ java -cp "C:\Windows\system32\config\systemprofile\AppData\Local\Jenkins\.jenkins\plugins\maven-plugin\WEB-INF\lib\maven35-agent-1.13.jar;C:\Program Files (x86)\apache-maven-3.8.1\boot\plexus-classworlds-2.6.0.jar;C:\Program Files (x86)\apache-maven-3.8.1/conf/logging" jenkins.maven3.agent.Maven35Main "C:\Program Files (x86)\apache-maven-3.8.1" C:\Windows\System32\config\systemprofile\AppData\Local\Jenkins\war\WEB-INF\lib\remoting-4.7.jar C:\Windows\system32\config\systemprofile\AppData\Local\Jenkins\.jenkins\plugins\maven-plugin\WEB-INF\lib\maven35-interceptor-1.13.jar C:\Windows\system32\config\systemprofile\AppData\Local\Jenkins\.jenkins\plugins\maven-plugin\WEB-INF\lib\maven3-interceptor-commons-1.13.jar 12840
+Established TCP socket on 13623
 <===[JENKINS REMOTING CAPACITY]===>channel started
-Executing Maven:  -B -f C:\Users\sarth\eclipse-workspace\QuotableAPI\pom.xml verify
+Executing Maven:  -N -B -f C:\Users\sarth\eclipse-workspace\QuotableAPI\pom.xml verify
 [INFO] Scanning for projects...
 [INFO] 
 [INFO] ---------------------< Quotable-API:Quotable-API >----------------------
 [INFO] Building Quotable-API 0.0.1-SNAPSHOT
 [INFO] --------------------------------[ jar ]---------------------------------
-[INFO] Downloading from central: https://repo.maven.apache.org/maven2/net/masterthought/maven-cucumber-reporting/5.5.0/maven-cucumber-reporting-5.5.0.pom
-[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/net/masterthought/maven-cucumber-reporting/5.5.0/maven-cucumber-reporting-5.5.0.pom (6.9 kB at 4.2 kB/s)
-[INFO] Downloading from central: https://repo.maven.apache.org/maven2/net/masterthought/maven-cucumber-reporting/5.5.0/maven-cucumber-reporting-5.5.0.jar
-[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/net/masterthought/maven-cucumber-reporting/5.5.0/maven-cucumber-reporting-5.5.0.jar (11 kB at 19 kB/s)
-[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/fasterxml/jackson/core/jackson-databind/2.12.3/jackson-databind-2.12.3.pom
-[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/fasterxml/jackson/core/jackson-databind/2.12.3/jackson-databind-2.12.3.pom (15 kB at 27 kB/s)
-[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/fasterxml/jackson/jackson-base/2.12.3/jackson-base-2.12.3.pom
-[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/fasterxml/jackson/jackson-base/2.12.3/jackson-base-2.12.3.pom (9.3 kB at 17 kB/s)
-[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/fasterxml/jackson/jackson-bom/2.12.3/jackson-bom-2.12.3.pom
-[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/fasterxml/jackson/jackson-bom/2.12.3/jackson-bom-2.12.3.pom (17 kB at 31 kB/s)
-[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/fasterxml/jackson/jackson-parent/2.12/jackson-parent-2.12.pom
-[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/fasterxml/jackson/jackson-parent/2.12/jackson-parent-2.12.pom (7.5 kB at 14 kB/s)
-[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/fasterxml/oss-parent/41/oss-parent-41.pom
-[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/fasterxml/oss-parent/41/oss-parent-41.pom (23 kB at 40 kB/s)
-[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/fasterxml/jackson/core/jackson-annotations/2.12.3/jackson-annotations-2.12.3.pom
-[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/fasterxml/jackson/core/jackson-annotations/2.12.3/jackson-annotations-2.12.3.pom (6.0 kB at 11 kB/s)
-[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/fasterxml/jackson/core/jackson-core/2.12.3/jackson-core-2.12.3.pom
-[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/fasterxml/jackson/core/jackson-core/2.12.3/jackson-core-2.12.3.pom (5.5 kB at 10 kB/s)
-[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/fasterxml/jackson/core/jackson-databind/2.12.3/jackson-databind-2.12.3.jar
-[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/fasterxml/jackson/core/jackson-annotations/2.12.3/jackson-annotations-2.12.3.jar
-[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/fasterxml/jackson/core/jackson-core/2.12.3/jackson-core-2.12.3.jar
-[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/fasterxml/jackson/core/jackson-annotations/2.12.3/jackson-annotations-2.12.3.jar (76 kB at 58 kB/s)
-[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/fasterxml/jackson/core/jackson-databind/2.12.3/jackson-databind-2.12.3.jar (1.5 MB at 720 kB/s)
-[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/fasterxml/jackson/core/jackson-core/2.12.3/jackson-core-2.12.3.jar (365 kB at 169 kB/s)
 [INFO] 
 [INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ Quotable-API ---
 [INFO] Using 'UTF-8' encoding to copy filtered resources.
@@ -83,6 +53,20 @@ Feature: Agoda Test
     And I execute the API                                                       # StepDef.iExecuteAPI()
     Then I validate "count" with "20"                                           # StepDef.iValidateResponse(String,String)
 ======================URL:https://quotable.io/quotes
+======================URL with Parameters:https://quotable.io/quotes?pages=
+======================REQUEST: https://quotable.io/quotes?pages=
+======================RESPONSE: {"count":20,"totalCount":1885,"page":1,"totalPages":95,"lastItemIndex":20,"results":[{"tags":["famous-quotes","inspirational"],"_id":"2xpHvSOQMD","author":"Helmut Schmidt","content":"The biggest room in the world is room for improvement.","authorSlug":"helmut-schmidt","length":54,"dateAdded":"2021-06-18","dateModified":"2021-06-18"},{"tags":["famous-quotes","inspirational"],"_id":"HMBEfGB94i","author":"Henry Ford","content":"Whether you think you can or you think you can't, you are right.","authorSlug":"henry-ford","length":64,"dateAdded":"2021-06-18","dateModified":"2021-06-18"},{"tags":["famous-quotes","inspirational"],"_id":"lJ60rOYWci","author":"Neil Gaiman","content":"The one thing that you have that nobody else has is you. Your voice, your mind, your story, your vision. So write and draw and build and play and dance and live as only you can.","authorSlug":"neil-gaiman","length":177,"dateAdded":"2021-06-18","dateModified":"2021-06-18"},{"tags":["famous-quotes","inspirational"],"_id":"XNLGqepInX","author":"Amy Poehler","content":"Thereâ€™s power in looking silly and not caring that you do.","authorSlug":"amy-poehler","length":58,"dateAdded":"2021-06-18","dateModified":"2021-06-18"},{"tags":["famous-quotes","inspirational"],"_id":"aEPNVog6sT","author":"Eric Hoffer","content":"In times of change, learners inherit the earth, while the learned find themselves beautifully equipped to deal with a world that no longer exists.","authorSlug":"eric-hoffer","length":146,"dateAdded":"2021-06-18","dateModified":"2021-06-18"},{"tags":["famous-quotes","inspirational"],"_id":"QdK00IhCNX","author":"Larry Page","content":"If you're changing the world, you're working on important things. You're excited to get up in the morning.","authorSlug":"larry-page","length":106,"dateAdded":"2021-06-18","dateModified":"2021-06-18"},{"tags":["wisdom"],"_id":"96eV21NlZKJ","content":"Make it your habit not to be critical about small things.","author":"Edward Everett Hale","authorSlug":"edward-everett-hale","length":57,"dateAdded":"2021-05-12","dateModified":"2021-05-12"},{"tags":["famous-quotes"],"_id":"2xx4dfKrYVRf","content":"Some people thrive on huge, dramatic change. Some people prefer the slow and steady route. Do what's right for you.","author":"Julie Morgenstern","authorSlug":"julie-morgenstern","length":115,"dateAdded":"2021-05-12","dateModified":"2021-05-12"},{"tags":["wisdom"],"_id":"wEfrviG0x9r","content":"With age comes wisdom and a high sex drive. And the wisdom to enjoy it.","author":"Amber Valletta","authorSlug":"amber-valletta","length":71,"dateAdded":"2021-05-12","dateModified":"2021-05-12"},{"tags":["famous-quotes"],"_id":"6c2h-AtqMj6d","content":"You can stand tall without standing on someone. You can be a victor without having victims.","author":"Harriet Woods","authorSlug":"harriet-woods","length":91,"dateAdded":"2021-05-12","dateModified":"2021-05-12"},{"tags":["famous-quotes"],"_id":"CdL1z3NLSDrN","content":"Don't talk about what you have done or what you are going to do.","author":"Thomas Jefferson","authorSlug":"thomas-jefferson","length":64,"dateAdded":"2021-05-12","dateModified":"2021-05-12"},{"tags":["wisdom"],"_id":"l7UNABW6dA2","content":"Silence is the sleep that nourishes wisdom.","author":"Francis Bacon","authorSlug":"francis-bacon","length":43,"dateAdded":"2021-05-12","dateModified":"2021-05-12"},{"tags":["friendship"],"_id":"sTma0kWPt2","content":"Friendship, like credit, is highest when it is not used.","author":"Elbert Hubbard","authorSlug":"elbert-hubbard","length":56,"dateAdded":"2021-05-12","dateModified":"2021-05-12"},{"tags":["friendship"],"_id":"ARKzsqVpFY","content":"Two persons cannot long be friends if they cannot forgive each other's little failings.","author":"Jean de La BruyÃ¨re","authorSlug":"jean-de-la-bruyere","length":87,"dateAdded":"2021-05-12","dateModified":"2021-05-12"},{"tags":["wisdom"],"_id":"5syS8jEn8m","content":"When a thing is done, it's done. Don't look back. Look forward to your next objective.","author":"George Marshall","authorSlug":"george-marshall","length":86,"dateAdded":"2021-05-12","dateModified":"2021-05-12"},{"tags":["famous-quotes"],"_id":"bfpxfIQlqZ_3","content":"He who controls others may be powerful, but he who has mastered himself is mightier still.","author":"Laozi","authorSlug":"laozi","length":90,"dateAdded":"2021-05-12","dateModified":"2021-05-12"},{"tags":["wisdom"],"_id":"6Kl3UT6ULk","content":"Wisdom, compassion, and courage are the three universally recognized moral qualities of men.","author":"Confucius","authorSlug":"confucius","length":92,"dateAdded":"2021-05-12","dateModified":"2021-05-12"},{"tags":["famous-quotes"],"_id":"Oh-e1-oygRPX","content":"To be wronged is nothing unless you continue to remember it.","author":"Confucius","authorSlug":"confucius","length":60,"dateAdded":"2021-05-12","dateModified":"2021-05-12"},{"tags":["famous-quotes"],"_id":"2wYjTZiTUSgQ","content":"The things that one most wants to do are the things that are probably most worth doing.","author":"Winifred Holtby","authorSlug":"winifred-holtby","length":87,"dateAdded":"2021-05-12","dateModified":"2021-05-12"},{"tags":["friendship"],"_id":"4mPxqSvuiN","content":"Friendship increases in visiting friends, but in visiting them seldom.","author":"Francis Bacon","authorSlug":"francis-bacon","length":70,"dateAdded":"2021-05-12","dateModified":"2021-05-12"}]}
+======================Expected Value:20
+======================Actual Value:20
+======================Assertion Passed
+
+  @Page @All-API
+  Scenario Outline: Validate "negative case with value" with "pages" parameter # GetAPI.feature:13
+    Given I add the url                                                        # StepDef.iAddTheurl()
+    And I add parameter "pages" with ""                                        # StepDef.iAddParameters(String,String)
+    And I execute the API                                                      # StepDef.iExecuteAPI()
+    Then I validate "count" with "20"                                          # StepDef.iValidateResponse(String,String)
+======================URL:https://quotable.io/quotes
 ======================URL with Parameters:https://quotable.io/quotes?pages=20000
 ======================REQUEST: https://quotable.io/quotes?pages=20000
 ======================RESPONSE: {"count":20,"totalCount":1885,"page":1,"totalPages":95,"lastItemIndex":20,"results":[{"tags":["famous-quotes","inspirational"],"_id":"2xpHvSOQMD","author":"Helmut Schmidt","content":"The biggest room in the world is room for improvement.","authorSlug":"helmut-schmidt","length":54,"dateAdded":"2021-06-18","dateModified":"2021-06-18"},{"tags":["famous-quotes","inspirational"],"_id":"HMBEfGB94i","author":"Henry Ford","content":"Whether you think you can or you think you can't, you are right.","authorSlug":"henry-ford","length":64,"dateAdded":"2021-06-18","dateModified":"2021-06-18"},{"tags":["famous-quotes","inspirational"],"_id":"lJ60rOYWci","author":"Neil Gaiman","content":"The one thing that you have that nobody else has is you. Your voice, your mind, your story, your vision. So write and draw and build and play and dance and live as only you can.","authorSlug":"neil-gaiman","length":177,"dateAdded":"2021-06-18","dateModified":"2021-06-18"},{"tags":["famous-quotes","inspirational"],"_id":"XNLGqepInX","author":"Amy Poehler","content":"Thereâ€™s power in looking silly and not caring that you do.","authorSlug":"amy-poehler","length":58,"dateAdded":"2021-06-18","dateModified":"2021-06-18"},{"tags":["famous-quotes","inspirational"],"_id":"aEPNVog6sT","author":"Eric Hoffer","content":"In times of change, learners inherit the earth, while the learned find themselves beautifully equipped to deal with a world that no longer exists.","authorSlug":"eric-hoffer","length":146,"dateAdded":"2021-06-18","dateModified":"2021-06-18"},{"tags":["famous-quotes","inspirational"],"_id":"QdK00IhCNX","author":"Larry Page","content":"If you're changing the world, you're working on important things. You're excited to get up in the morning.","authorSlug":"larry-page","length":106,"dateAdded":"2021-06-18","dateModified":"2021-06-18"},{"tags":["wisdom"],"_id":"96eV21NlZKJ","content":"Make it your habit not to be critical about small things.","author":"Edward Everett Hale","authorSlug":"edward-everett-hale","length":57,"dateAdded":"2021-05-12","dateModified":"2021-05-12"},{"tags":["famous-quotes"],"_id":"2xx4dfKrYVRf","content":"Some people thrive on huge, dramatic change. Some people prefer the slow and steady route. Do what's right for you.","author":"Julie Morgenstern","authorSlug":"julie-morgenstern","length":115,"dateAdded":"2021-05-12","dateModified":"2021-05-12"},{"tags":["wisdom"],"_id":"wEfrviG0x9r","content":"With age comes wisdom and a high sex drive. And the wisdom to enjoy it.","author":"Amber Valletta","authorSlug":"amber-valletta","length":71,"dateAdded":"2021-05-12","dateModified":"2021-05-12"},{"tags":["famous-quotes"],"_id":"6c2h-AtqMj6d","content":"You can stand tall without standing on someone. You can be a victor without having victims.","author":"Harriet Woods","authorSlug":"harriet-woods","length":91,"dateAdded":"2021-05-12","dateModified":"2021-05-12"},{"tags":["famous-quotes"],"_id":"CdL1z3NLSDrN","content":"Don't talk about what you have done or what you are going to do.","author":"Thomas Jefferson","authorSlug":"thomas-jefferson","length":64,"dateAdded":"2021-05-12","dateModified":"2021-05-12"},{"tags":["wisdom"],"_id":"l7UNABW6dA2","content":"Silence is the sleep that nourishes wisdom.","author":"Francis Bacon","authorSlug":"francis-bacon","length":43,"dateAdded":"2021-05-12","dateModified":"2021-05-12"},{"tags":["friendship"],"_id":"sTma0kWPt2","content":"Friendship, like credit, is highest when it is not used.","author":"Elbert Hubbard","authorSlug":"elbert-hubbard","length":56,"dateAdded":"2021-05-12","dateModified":"2021-05-12"},{"tags":["friendship"],"_id":"ARKzsqVpFY","content":"Two persons cannot long be friends if they cannot forgive each other's little failings.","author":"Jean de La BruyÃ¨re","authorSlug":"jean-de-la-bruyere","length":87,"dateAdded":"2021-05-12","dateModified":"2021-05-12"},{"tags":["wisdom"],"_id":"5syS8jEn8m","content":"When a thing is done, it's done. Don't look back. Look forward to your next objective.","author":"George Marshall","authorSlug":"george-marshall","length":86,"dateAdded":"2021-05-12","dateModified":"2021-05-12"},{"tags":["famous-quotes"],"_id":"bfpxfIQlqZ_3","content":"He who controls others may be powerful, but he who has mastered himself is mightier still.","author":"Laozi","authorSlug":"laozi","length":90,"dateAdded":"2021-05-12","dateModified":"2021-05-12"},{"tags":["wisdom"],"_id":"6Kl3UT6ULk","content":"Wisdom, compassion, and courage are the three universally recognized moral qualities of men.","author":"Confucius","authorSlug":"confucius","length":92,"dateAdded":"2021-05-12","dateModified":"2021-05-12"},{"tags":["famous-quotes"],"_id":"Oh-e1-oygRPX","content":"To be wronged is nothing unless you continue to remember it.","author":"Confucius","authorSlug":"confucius","length":60,"dateAdded":"2021-05-12","dateModified":"2021-05-12"},{"tags":["famous-quotes"],"_id":"2wYjTZiTUSgQ","content":"The things that one most wants to do are the things that are probably most worth doing.","author":"Winifred Holtby","authorSlug":"winifred-holtby","length":87,"dateAdded":"2021-05-12","dateModified":"2021-05-12"},{"tags":["friendship"],"_id":"4mPxqSvuiN","content":"Friendship increases in visiting friends, but in visiting them seldom.","author":"Francis Bacon","authorSlug":"francis-bacon","length":70,"dateAdded":"2021-05-12","dateModified":"2021-05-12"}]}
@@ -91,7 +75,7 @@ Feature: Agoda Test
 ======================Assertion Passed
 
   @Page @All-API
-  Scenario Outline: Validate "negative case with value 20000" with "pages" parameter # GetAPI.feature:13
+  Scenario Outline: Validate "negative case with value 20000" with "pages" parameter # GetAPI.feature:14
     Given I add the url                                                              # StepDef.iAddTheurl()
     And I add parameter "pages" with "20000"                                         # StepDef.iAddParameters(String,String)
     And I execute the API                                                            # StepDef.iExecuteAPI()
@@ -105,7 +89,7 @@ Feature: Agoda Test
 ======================Assertion Passed
 
   @Page @All-API
-  Scenario Outline: Validate "negative case with value !@" with "pages" parameter # GetAPI.feature:14
+  Scenario Outline: Validate "negative case with value !@" with "pages" parameter # GetAPI.feature:15
     Given I add the url                                                           # StepDef.iAddTheurl()
     And I add parameter "pages" with "!@"                                         # StepDef.iAddParameters(String,String)
     And I execute the API                                                         # StepDef.iExecuteAPI()
@@ -119,7 +103,7 @@ Feature: Agoda Test
 ======================Assertion Passed
 
   @Page @All-API
-  Scenario Outline: Validate "negative case with value 2abc" with "pages" parameter # GetAPI.feature:15
+  Scenario Outline: Validate "negative case with value 2abc" with "pages" parameter # GetAPI.feature:16
     Given I add the url                                                             # StepDef.iAddTheurl()
     And I add parameter "pages" with "2abc"                                         # StepDef.iAddParameters(String,String)
     And I execute the API                                                           # StepDef.iExecuteAPI()
@@ -133,7 +117,7 @@ Feature: Agoda Test
 ======================Assertion Passed
 
   @Page @All-API
-  Scenario Outline: Validate "negative case with value xyz" with "pages" parameter # GetAPI.feature:16
+  Scenario Outline: Validate "negative case with value xyz" with "pages" parameter # GetAPI.feature:17
     Given I add the url                                                            # StepDef.iAddTheurl()
     And I add parameter "pages" with "xyz"                                         # StepDef.iAddParameters(String,String)
     And I execute the API                                                          # StepDef.iExecuteAPI()
@@ -147,14 +131,14 @@ Feature: Agoda Test
 ======================Assertion Passed
 
   @Page @All-API
-  Scenario Outline: Validate "negative case with value -10" with "pages" parameter # GetAPI.feature:17
+  Scenario Outline: Validate "negative case with value -10" with "pages" parameter # GetAPI.feature:18
     Given I add the url                                                            # StepDef.iAddTheurl()
     And I add parameter "pages" with "-10"                                         # StepDef.iAddParameters(String,String)
     And I execute the API                                                          # StepDef.iExecuteAPI()
     Then I validate "count" with "20"                                              # StepDef.iValidateResponse(String,String)
 
   @All-API @Tags
-  Scenario Outline: Validate "<value>" with "<param1>" parameter # GetAPI.feature:20
+  Scenario Outline: Validate "<value>" with "<param1>" parameter # GetAPI.feature:21
     Given I add the url
     And I add parameter "<param1>" with "<param_val>"
     And I execute the API
@@ -170,7 +154,7 @@ Feature: Agoda Test
 ======================Assertion Passed
 
   @Tags @All-API
-  Scenario Outline: Validate "postive case with value love-happiness" with "tags" parameter # GetAPI.feature:28
+  Scenario Outline: Validate "postive case with value love-happiness" with "tags" parameter # GetAPI.feature:29
     Given I add the url                                                                     # StepDef.iAddTheurl()
     And I add parameter "tags" with "love%7Chappiness"                                      # StepDef.iAddParameters(String,String)
     And I execute the API                                                                   # StepDef.iExecuteAPI()
@@ -184,11 +168,25 @@ Feature: Agoda Test
 ======================Assertion Passed
 
   @Tags @All-API
-  Scenario Outline: Validate "postive case with value technology,famous-quotes" with "tags" parameter # GetAPI.feature:29
+  Scenario Outline: Validate "postive case with value technology,famous-quotes" with "tags" parameter # GetAPI.feature:30
     Given I add the url                                                                               # StepDef.iAddTheurl()
     And I add parameter "tags" with "technology,famous-quotes"                                        # StepDef.iAddParameters(String,String)
     And I execute the API                                                                             # StepDef.iExecuteAPI()
     Then I validate "count" with "4"                                                                  # StepDef.iValidateResponse(String,String)
+======================URL:https://quotable.io/quotes
+======================URL with Parameters:https://quotable.io/quotes?tags=
+======================REQUEST: https://quotable.io/quotes?tags=
+======================RESPONSE: {"count":20,"totalCount":1885,"page":1,"totalPages":95,"lastItemIndex":20,"results":[{"tags":["famous-quotes","inspirational"],"_id":"2xpHvSOQMD","author":"Helmut Schmidt","content":"The biggest room in the world is room for improvement.","authorSlug":"helmut-schmidt","length":54,"dateAdded":"2021-06-18","dateModified":"2021-06-18"},{"tags":["famous-quotes","inspirational"],"_id":"HMBEfGB94i","author":"Henry Ford","content":"Whether you think you can or you think you can't, you are right.","authorSlug":"henry-ford","length":64,"dateAdded":"2021-06-18","dateModified":"2021-06-18"},{"tags":["famous-quotes","inspirational"],"_id":"lJ60rOYWci","author":"Neil Gaiman","content":"The one thing that you have that nobody else has is you. Your voice, your mind, your story, your vision. So write and draw and build and play and dance and live as only you can.","authorSlug":"neil-gaiman","length":177,"dateAdded":"2021-06-18","dateModified":"2021-06-18"},{"tags":["famous-quotes","inspirational"],"_id":"XNLGqepInX","author":"Amy Poehler","content":"Thereâ€™s power in looking silly and not caring that you do.","authorSlug":"amy-poehler","length":58,"dateAdded":"2021-06-18","dateModified":"2021-06-18"},{"tags":["famous-quotes","inspirational"],"_id":"aEPNVog6sT","author":"Eric Hoffer","content":"In times of change, learners inherit the earth, while the learned find themselves beautifully equipped to deal with a world that no longer exists.","authorSlug":"eric-hoffer","length":146,"dateAdded":"2021-06-18","dateModified":"2021-06-18"},{"tags":["famous-quotes","inspirational"],"_id":"QdK00IhCNX","author":"Larry Page","content":"If you're changing the world, you're working on important things. You're excited to get up in the morning.","authorSlug":"larry-page","length":106,"dateAdded":"2021-06-18","dateModified":"2021-06-18"},{"tags":["wisdom"],"_id":"96eV21NlZKJ","content":"Make it your habit not to be critical about small things.","author":"Edward Everett Hale","authorSlug":"edward-everett-hale","length":57,"dateAdded":"2021-05-12","dateModified":"2021-05-12"},{"tags":["famous-quotes"],"_id":"2xx4dfKrYVRf","content":"Some people thrive on huge, dramatic change. Some people prefer the slow and steady route. Do what's right for you.","author":"Julie Morgenstern","authorSlug":"julie-morgenstern","length":115,"dateAdded":"2021-05-12","dateModified":"2021-05-12"},{"tags":["wisdom"],"_id":"wEfrviG0x9r","content":"With age comes wisdom and a high sex drive. And the wisdom to enjoy it.","author":"Amber Valletta","authorSlug":"amber-valletta","length":71,"dateAdded":"2021-05-12","dateModified":"2021-05-12"},{"tags":["famous-quotes"],"_id":"6c2h-AtqMj6d","content":"You can stand tall without standing on someone. You can be a victor without having victims.","author":"Harriet Woods","authorSlug":"harriet-woods","length":91,"dateAdded":"2021-05-12","dateModified":"2021-05-12"},{"tags":["famous-quotes"],"_id":"CdL1z3NLSDrN","content":"Don't talk about what you have done or what you are going to do.","author":"Thomas Jefferson","authorSlug":"thomas-jefferson","length":64,"dateAdded":"2021-05-12","dateModified":"2021-05-12"},{"tags":["wisdom"],"_id":"l7UNABW6dA2","content":"Silence is the sleep that nourishes wisdom.","author":"Francis Bacon","authorSlug":"francis-bacon","length":43,"dateAdded":"2021-05-12","dateModified":"2021-05-12"},{"tags":["friendship"],"_id":"sTma0kWPt2","content":"Friendship, like credit, is highest when it is not used.","author":"Elbert Hubbard","authorSlug":"elbert-hubbard","length":56,"dateAdded":"2021-05-12","dateModified":"2021-05-12"},{"tags":["friendship"],"_id":"ARKzsqVpFY","content":"Two persons cannot long be friends if they cannot forgive each other's little failings.","author":"Jean de La BruyÃ¨re","authorSlug":"jean-de-la-bruyere","length":87,"dateAdded":"2021-05-12","dateModified":"2021-05-12"},{"tags":["wisdom"],"_id":"5syS8jEn8m","content":"When a thing is done, it's done. Don't look back. Look forward to your next objective.","author":"George Marshall","authorSlug":"george-marshall","length":86,"dateAdded":"2021-05-12","dateModified":"2021-05-12"},{"tags":["famous-quotes"],"_id":"bfpxfIQlqZ_3","content":"He who controls others may be powerful, but he who has mastered himself is mightier still.","author":"Laozi","authorSlug":"laozi","length":90,"dateAdded":"2021-05-12","dateModified":"2021-05-12"},{"tags":["wisdom"],"_id":"6Kl3UT6ULk","content":"Wisdom, compassion, and courage are the three universally recognized moral qualities of men.","author":"Confucius","authorSlug":"confucius","length":92,"dateAdded":"2021-05-12","dateModified":"2021-05-12"},{"tags":["famous-quotes"],"_id":"Oh-e1-oygRPX","content":"To be wronged is nothing unless you continue to remember it.","author":"Confucius","authorSlug":"confucius","length":60,"dateAdded":"2021-05-12","dateModified":"2021-05-12"},{"tags":["famous-quotes"],"_id":"2wYjTZiTUSgQ","content":"The things that one most wants to do are the things that are probably most worth doing.","author":"Winifred Holtby","authorSlug":"winifred-holtby","length":87,"dateAdded":"2021-05-12","dateModified":"2021-05-12"},{"tags":["friendship"],"_id":"4mPxqSvuiN","content":"Friendship increases in visiting friends, but in visiting them seldom.","author":"Francis Bacon","authorSlug":"francis-bacon","length":70,"dateAdded":"2021-05-12","dateModified":"2021-05-12"}]}
+======================Expected Value:20
+======================Actual Value:20
+======================Assertion Passed
+
+  @Tags @All-API
+  Scenario Outline: Validate "negative case with value" with "tags" parameter # GetAPI.feature:31
+    Given I add the url                                                       # StepDef.iAddTheurl()
+    And I add parameter "tags" with ""                                        # StepDef.iAddParameters(String,String)
+    And I execute the API                                                     # StepDef.iExecuteAPI()
+    Then I validate "count" with "20"                                         # StepDef.iValidateResponse(String,String)
 ======================URL:https://quotable.io/quotes
 ======================URL with Parameters:https://quotable.io/quotes?tags=20000
 ======================REQUEST: https://quotable.io/quotes?tags=20000
@@ -198,7 +196,7 @@ Feature: Agoda Test
 ======================Assertion Passed
 
   @Tags @All-API
-  Scenario Outline: Validate "negative case with value 20000" with "tags" parameter # GetAPI.feature:30
+  Scenario Outline: Validate "negative case with value 20000" with "tags" parameter # GetAPI.feature:32
     Given I add the url                                                             # StepDef.iAddTheurl()
     And I add parameter "tags" with "20000"                                         # StepDef.iAddParameters(String,String)
     And I execute the API                                                           # StepDef.iExecuteAPI()
@@ -212,7 +210,7 @@ Feature: Agoda Test
 ======================Assertion Passed
 
   @Tags @All-API
-  Scenario Outline: Validate "negative case with value !@" with "tags" parameter # GetAPI.feature:31
+  Scenario Outline: Validate "negative case with value !@" with "tags" parameter # GetAPI.feature:33
     Given I add the url                                                          # StepDef.iAddTheurl()
     And I add parameter "tags" with "!@"                                         # StepDef.iAddParameters(String,String)
     And I execute the API                                                        # StepDef.iExecuteAPI()
@@ -226,7 +224,7 @@ Feature: Agoda Test
 ======================Assertion Passed
 
   @Tags @All-API
-  Scenario Outline: Validate "negative case with value 2abc" with "tags" parameter # GetAPI.feature:32
+  Scenario Outline: Validate "negative case with value 2abc" with "tags" parameter # GetAPI.feature:34
     Given I add the url                                                            # StepDef.iAddTheurl()
     And I add parameter "tags" with "2abc"                                         # StepDef.iAddParameters(String,String)
     And I execute the API                                                          # StepDef.iExecuteAPI()
@@ -240,7 +238,7 @@ Feature: Agoda Test
 ======================Assertion Passed
 
   @Tags @All-API
-  Scenario Outline: Validate "negative case with value xyz" with "tags" parameter # GetAPI.feature:33
+  Scenario Outline: Validate "negative case with value xyz" with "tags" parameter # GetAPI.feature:35
     Given I add the url                                                           # StepDef.iAddTheurl()
     And I add parameter "tags" with "xyz"                                         # StepDef.iAddParameters(String,String)
     And I execute the API                                                         # StepDef.iExecuteAPI()
@@ -254,14 +252,14 @@ Feature: Agoda Test
 ======================Assertion Passed
 
   @Tags @All-API
-  Scenario Outline: Validate "negative case with value -10" with "tags" parameter # GetAPI.feature:34
+  Scenario Outline: Validate "negative case with value -10" with "tags" parameter # GetAPI.feature:36
     Given I add the url                                                           # StepDef.iAddTheurl()
     And I add parameter "tags" with "-10"                                         # StepDef.iAddParameters(String,String)
     And I execute the API                                                         # StepDef.iExecuteAPI()
     Then I validate "count" with "0"                                              # StepDef.iValidateResponse(String,String)
 
   @All-API @Authors
-  Scenario Outline: Validate "<value>" with "<param1>" parameter # GetAPI.feature:37
+  Scenario Outline: Validate "<value>" with "<param1>" parameter # GetAPI.feature:39
     Given I add the url
     And I add parameter "<param1>" with "<param_val>"
     And I execute the API
@@ -277,7 +275,7 @@ Feature: Agoda Test
 ======================Assertion Passed
 
   @Authors @All-API
-  Scenario Outline: Validate "postive case with value albert-einstein" with "author" parameter # GetAPI.feature:45
+  Scenario Outline: Validate "postive case with value albert-einstein" with "author" parameter # GetAPI.feature:47
     Given I add the url                                                                        # StepDef.iAddTheurl()
     And I add parameter "author" with "albert-einstein"                                        # StepDef.iAddParameters(String,String)
     And I execute the API                                                                      # StepDef.iExecuteAPI()
@@ -291,11 +289,25 @@ Feature: Agoda Test
 ======================Assertion Passed
 
   @Authors @All-API
-  Scenario Outline: Validate "postive case with value asd@-eins232$3n" with "author" parameter # GetAPI.feature:46
+  Scenario Outline: Validate "postive case with value asd@-eins232$3n" with "author" parameter # GetAPI.feature:48
     Given I add the url                                                                        # StepDef.iAddTheurl()
     And I add parameter "author" with "asd@-eins232$3n"                                        # StepDef.iAddParameters(String,String)
     And I execute the API                                                                      # StepDef.iExecuteAPI()
     Then I validate "count" with "0"                                                           # StepDef.iValidateResponse(String,String)
+======================URL:https://quotable.io/quotes
+======================URL with Parameters:https://quotable.io/quotes?author=
+======================REQUEST: https://quotable.io/quotes?author=
+======================RESPONSE: {"count":20,"totalCount":1885,"page":1,"totalPages":95,"lastItemIndex":20,"results":[{"tags":["famous-quotes","inspirational"],"_id":"2xpHvSOQMD","author":"Helmut Schmidt","content":"The biggest room in the world is room for improvement.","authorSlug":"helmut-schmidt","length":54,"dateAdded":"2021-06-18","dateModified":"2021-06-18"},{"tags":["famous-quotes","inspirational"],"_id":"HMBEfGB94i","author":"Henry Ford","content":"Whether you think you can or you think you can't, you are right.","authorSlug":"henry-ford","length":64,"dateAdded":"2021-06-18","dateModified":"2021-06-18"},{"tags":["famous-quotes","inspirational"],"_id":"lJ60rOYWci","author":"Neil Gaiman","content":"The one thing that you have that nobody else has is you. Your voice, your mind, your story, your vision. So write and draw and build and play and dance and live as only you can.","authorSlug":"neil-gaiman","length":177,"dateAdded":"2021-06-18","dateModified":"2021-06-18"},{"tags":["famous-quotes","inspirational"],"_id":"XNLGqepInX","author":"Amy Poehler","content":"Thereâ€™s power in looking silly and not caring that you do.","authorSlug":"amy-poehler","length":58,"dateAdded":"2021-06-18","dateModified":"2021-06-18"},{"tags":["famous-quotes","inspirational"],"_id":"aEPNVog6sT","author":"Eric Hoffer","content":"In times of change, learners inherit the earth, while the learned find themselves beautifully equipped to deal with a world that no longer exists.","authorSlug":"eric-hoffer","length":146,"dateAdded":"2021-06-18","dateModified":"2021-06-18"},{"tags":["famous-quotes","inspirational"],"_id":"QdK00IhCNX","author":"Larry Page","content":"If you're changing the world, you're working on important things. You're excited to get up in the morning.","authorSlug":"larry-page","length":106,"dateAdded":"2021-06-18","dateModified":"2021-06-18"},{"tags":["wisdom"],"_id":"96eV21NlZKJ","content":"Make it your habit not to be critical about small things.","author":"Edward Everett Hale","authorSlug":"edward-everett-hale","length":57,"dateAdded":"2021-05-12","dateModified":"2021-05-12"},{"tags":["famous-quotes"],"_id":"2xx4dfKrYVRf","content":"Some people thrive on huge, dramatic change. Some people prefer the slow and steady route. Do what's right for you.","author":"Julie Morgenstern","authorSlug":"julie-morgenstern","length":115,"dateAdded":"2021-05-12","dateModified":"2021-05-12"},{"tags":["wisdom"],"_id":"wEfrviG0x9r","content":"With age comes wisdom and a high sex drive. And the wisdom to enjoy it.","author":"Amber Valletta","authorSlug":"amber-valletta","length":71,"dateAdded":"2021-05-12","dateModified":"2021-05-12"},{"tags":["famous-quotes"],"_id":"6c2h-AtqMj6d","content":"You can stand tall without standing on someone. You can be a victor without having victims.","author":"Harriet Woods","authorSlug":"harriet-woods","length":91,"dateAdded":"2021-05-12","dateModified":"2021-05-12"},{"tags":["famous-quotes"],"_id":"CdL1z3NLSDrN","content":"Don't talk about what you have done or what you are going to do.","author":"Thomas Jefferson","authorSlug":"thomas-jefferson","length":64,"dateAdded":"2021-05-12","dateModified":"2021-05-12"},{"tags":["wisdom"],"_id":"l7UNABW6dA2","content":"Silence is the sleep that nourishes wisdom.","author":"Francis Bacon","authorSlug":"francis-bacon","length":43,"dateAdded":"2021-05-12","dateModified":"2021-05-12"},{"tags":["friendship"],"_id":"sTma0kWPt2","content":"Friendship, like credit, is highest when it is not used.","author":"Elbert Hubbard","authorSlug":"elbert-hubbard","length":56,"dateAdded":"2021-05-12","dateModified":"2021-05-12"},{"tags":["friendship"],"_id":"ARKzsqVpFY","content":"Two persons cannot long be friends if they cannot forgive each other's little failings.","author":"Jean de La BruyÃ¨re","authorSlug":"jean-de-la-bruyere","length":87,"dateAdded":"2021-05-12","dateModified":"2021-05-12"},{"tags":["wisdom"],"_id":"5syS8jEn8m","content":"When a thing is done, it's done. Don't look back. Look forward to your next objective.","author":"George Marshall","authorSlug":"george-marshall","length":86,"dateAdded":"2021-05-12","dateModified":"2021-05-12"},{"tags":["famous-quotes"],"_id":"bfpxfIQlqZ_3","content":"He who controls others may be powerful, but he who has mastered himself is mightier still.","author":"Laozi","authorSlug":"laozi","length":90,"dateAdded":"2021-05-12","dateModified":"2021-05-12"},{"tags":["wisdom"],"_id":"6Kl3UT6ULk","content":"Wisdom, compassion, and courage are the three universally recognized moral qualities of men.","author":"Confucius","authorSlug":"confucius","length":92,"dateAdded":"2021-05-12","dateModified":"2021-05-12"},{"tags":["famous-quotes"],"_id":"Oh-e1-oygRPX","content":"To be wronged is nothing unless you continue to remember it.","author":"Confucius","authorSlug":"confucius","length":60,"dateAdded":"2021-05-12","dateModified":"2021-05-12"},{"tags":["famous-quotes"],"_id":"2wYjTZiTUSgQ","content":"The things that one most wants to do are the things that are probably most worth doing.","author":"Winifred Holtby","authorSlug":"winifred-holtby","length":87,"dateAdded":"2021-05-12","dateModified":"2021-05-12"},{"tags":["friendship"],"_id":"4mPxqSvuiN","content":"Friendship increases in visiting friends, but in visiting them seldom.","author":"Francis Bacon","authorSlug":"francis-bacon","length":70,"dateAdded":"2021-05-12","dateModified":"2021-05-12"}]}
+======================Expected Value:20
+======================Actual Value:20
+======================Assertion Passed
+
+  @Authors @All-API
+  Scenario Outline: Validate "negative case with value" with "author" parameter # GetAPI.feature:49
+    Given I add the url                                                         # StepDef.iAddTheurl()
+    And I add parameter "author" with ""                                        # StepDef.iAddParameters(String,String)
+    And I execute the API                                                       # StepDef.iExecuteAPI()
+    Then I validate "count" with "20"                                           # StepDef.iValidateResponse(String,String)
 ======================URL:https://quotable.io/quotes
 ======================URL with Parameters:https://quotable.io/quotes?author=20000
 ======================REQUEST: https://quotable.io/quotes?author=20000
@@ -305,7 +317,7 @@ Feature: Agoda Test
 ======================Assertion Passed
 
   @Authors @All-API
-  Scenario Outline: Validate "negative case with value 20000" with "author" parameter # GetAPI.feature:47
+  Scenario Outline: Validate "negative case with value 20000" with "author" parameter # GetAPI.feature:50
     Given I add the url                                                               # StepDef.iAddTheurl()
     And I add parameter "author" with "20000"                                         # StepDef.iAddParameters(String,String)
     And I execute the API                                                             # StepDef.iExecuteAPI()
@@ -319,7 +331,7 @@ Feature: Agoda Test
 ======================Assertion Passed
 
   @Authors @All-API
-  Scenario Outline: Validate "negative case with value !@" with "author" parameter # GetAPI.feature:48
+  Scenario Outline: Validate "negative case with value !@" with "author" parameter # GetAPI.feature:51
     Given I add the url                                                            # StepDef.iAddTheurl()
     And I add parameter "author" with "!@"                                         # StepDef.iAddParameters(String,String)
     And I execute the API                                                          # StepDef.iExecuteAPI()
@@ -333,7 +345,7 @@ Feature: Agoda Test
 ======================Assertion Passed
 
   @Authors @All-API
-  Scenario Outline: Validate "negative case with value 2abc" with "author" parameter # GetAPI.feature:49
+  Scenario Outline: Validate "negative case with value 2abc" with "author" parameter # GetAPI.feature:52
     Given I add the url                                                              # StepDef.iAddTheurl()
     And I add parameter "author" with "2abc"                                         # StepDef.iAddParameters(String,String)
     And I execute the API                                                            # StepDef.iExecuteAPI()
@@ -347,7 +359,7 @@ Feature: Agoda Test
 ======================Assertion Passed
 
   @Authors @All-API
-  Scenario Outline: Validate "negative case with value xyz" with "author" parameter # GetAPI.feature:50
+  Scenario Outline: Validate "negative case with value xyz" with "author" parameter # GetAPI.feature:53
     Given I add the url                                                             # StepDef.iAddTheurl()
     And I add parameter "author" with "xyz"                                         # StepDef.iAddParameters(String,String)
     And I execute the API                                                           # StepDef.iExecuteAPI()
@@ -361,99 +373,36 @@ Feature: Agoda Test
 ======================Assertion Passed
 
   @Authors @All-API
-  Scenario Outline: Validate "negative case with value -10" with "author" parameter # GetAPI.feature:51
+  Scenario Outline: Validate "negative case with value -10" with "author" parameter # GetAPI.feature:54
     Given I add the url                                                             # StepDef.iAddTheurl()
     And I add parameter "author" with "-10"                                         # StepDef.iAddParameters(String,String)
     And I execute the API                                                           # StepDef.iExecuteAPI()
     Then I validate "count" with "0"                                                # StepDef.iValidateResponse(String,String)
 
-20 Scenarios (20 passed)
-80 Steps (80 passed)
-0m20.590s
+23 Scenarios (23 passed)
+92 Steps (92 passed)
+0m23.719s
 
-Tests run: 100, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 21.164 sec
+Tests run: 115, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 24.291 sec
 
 Results :
 
-Tests run: 100, Failures: 0, Errors: 0, Skipped: 0
+Tests run: 115, Failures: 0, Errors: 0, Skipped: 0
 
 [JENKINS] Recording test results
 [INFO] 
 [INFO] --- maven-jar-plugin:2.4:jar (default-jar) @ Quotable-API ---
 [INFO] 
 [INFO] --- maven-cucumber-reporting:5.5.0:generate (execution) @ Quotable-API ---
-[INFO] Downloading from central: https://repo.maven.apache.org/maven2/net/masterthought/cucumber-reporting/5.5.2/cucumber-reporting-5.5.2.pom
-[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/net/masterthought/cucumber-reporting/5.5.2/cucumber-reporting-5.5.2.pom (11 kB at 22 kB/s)
-[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/fasterxml/jackson/core/jackson-databind/2.12.1/jackson-databind-2.12.1.pom
-[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/fasterxml/jackson/core/jackson-databind/2.12.1/jackson-databind-2.12.1.pom (15 kB at 28 kB/s)
-[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/fasterxml/jackson/jackson-base/2.12.1/jackson-base-2.12.1.pom
-[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/fasterxml/jackson/jackson-base/2.12.1/jackson-base-2.12.1.pom (9.3 kB at 18 kB/s)
-[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/fasterxml/jackson/jackson-bom/2.12.1/jackson-bom-2.12.1.pom
-[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/fasterxml/jackson/jackson-bom/2.12.1/jackson-bom-2.12.1.pom (15 kB at 28 kB/s)
-[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/fasterxml/jackson/core/jackson-annotations/2.12.1/jackson-annotations-2.12.1.pom
-[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/fasterxml/jackson/core/jackson-annotations/2.12.1/jackson-annotations-2.12.1.pom (6.0 kB at 12 kB/s)
-[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/fasterxml/jackson/core/jackson-core/2.12.1/jackson-core-2.12.1.pom
-[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/fasterxml/jackson/core/jackson-core/2.12.1/jackson-core-2.12.1.pom (5.5 kB at 11 kB/s)
-[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/fasterxml/jackson/datatype/jackson-datatype-jsr310/2.12.1/jackson-datatype-jsr310-2.12.1.pom
-[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/fasterxml/jackson/datatype/jackson-datatype-jsr310/2.12.1/jackson-datatype-jsr310-2.12.1.pom (4.9 kB at 9.6 kB/s)
-[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/fasterxml/jackson/module/jackson-modules-java8/2.12.1/jackson-modules-java8-2.12.1.pom
-[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/fasterxml/jackson/module/jackson-modules-java8/2.12.1/jackson-modules-java8-2.12.1.pom (3.4 kB at 6.6 kB/s)
-[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/velocity/velocity-engine-core/2.2/velocity-engine-core-2.2.pom
-[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/velocity/velocity-engine-core/2.2/velocity-engine-core-2.2.pom (10 kB at 20 kB/s)
-[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/velocity/velocity-engine-parent/2.2/velocity-engine-parent-2.2.pom
-[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/velocity/velocity-engine-parent/2.2/velocity-engine-parent-2.2.pom (14 kB at 26 kB/s)
-[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/velocity/velocity-master/3/velocity-master-3.pom
-[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/velocity/velocity-master/3/velocity-master-3.pom (8.4 kB at 16 kB/s)
-[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/slf4j/slf4j-api/1.7.30/slf4j-api-1.7.30.pom
-[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/slf4j/slf4j-api/1.7.30/slf4j-api-1.7.30.pom (3.8 kB at 7.5 kB/s)
-[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/slf4j/slf4j-parent/1.7.30/slf4j-parent-1.7.30.pom
-[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/slf4j/slf4j-parent/1.7.30/slf4j-parent-1.7.30.pom (14 kB at 26 kB/s)
-[INFO] Downloading from central: https://repo.maven.apache.org/maven2/joda-time/joda-time/2.10.9/joda-time-2.10.9.pom
-[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/joda-time/joda-time/2.10.9/joda-time-2.10.9.pom (37 kB at 70 kB/s)
-[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/commons/commons-lang3/3.11/commons-lang3-3.11.pom
-[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/commons/commons-lang3/3.11/commons-lang3-3.11.pom (30 kB at 57 kB/s)
-[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/commons/commons-parent/51/commons-parent-51.pom
-[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/commons/commons-parent/51/commons-parent-51.pom (78 kB at 141 kB/s)
-[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/apache/23/apache-23.pom
-[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/apache/23/apache-23.pom (18 kB at 33 kB/s)
-[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/jsoup/jsoup/1.13.1/jsoup-1.13.1.pom
-[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/jsoup/jsoup/1.13.1/jsoup-1.13.1.pom (9.2 kB at 18 kB/s)
-[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/googlecode/owasp-java-html-sanitizer/owasp-java-html-sanitizer/20200713.1/owasp-java-html-sanitizer-20200713.1.pom
-[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/googlecode/owasp-java-html-sanitizer/owasp-java-html-sanitizer/20200713.1/owasp-java-html-sanitizer-20200713.1.pom (4.5 kB at 7.5 kB/s)
-[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/googlecode/owasp-java-html-sanitizer/parent/20200713.1/parent-20200713.1.pom
-[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/googlecode/owasp-java-html-sanitizer/parent/20200713.1/parent-20200713.1.pom (10 kB at 20 kB/s)
-[INFO] Downloading from central: https://repo.maven.apache.org/maven2/net/masterthought/cucumber-reporting/5.5.2/cucumber-reporting-5.5.2.jar
-[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/fasterxml/jackson/core/jackson-databind/2.12.1/jackson-databind-2.12.1.jar
-[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/fasterxml/jackson/core/jackson-annotations/2.12.1/jackson-annotations-2.12.1.jar
-[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/fasterxml/jackson/core/jackson-core/2.12.1/jackson-core-2.12.1.jar
-[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/fasterxml/jackson/datatype/jackson-datatype-jsr310/2.12.1/jackson-datatype-jsr310-2.12.1.jar
-[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/fasterxml/jackson/core/jackson-annotations/2.12.1/jackson-annotations-2.12.1.jar (76 kB at 143 kB/s)
-[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/velocity/velocity-engine-core/2.2/velocity-engine-core-2.2.jar
-[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/fasterxml/jackson/core/jackson-databind/2.12.1/jackson-databind-2.12.1.jar (1.5 MB at 1.1 MB/s)
-[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/slf4j/slf4j-api/1.7.30/slf4j-api-1.7.30.jar
-[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/fasterxml/jackson/datatype/jackson-datatype-jsr310/2.12.1/jackson-datatype-jsr310-2.12.1.jar (120 kB at 79 kB/s)
-[INFO] Downloading from central: https://repo.maven.apache.org/maven2/joda-time/joda-time/2.10.9/joda-time-2.10.9.jar
-[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/net/masterthought/cucumber-reporting/5.5.2/cucumber-reporting-5.5.2.jar (923 kB at 567 kB/s)
-[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/commons/commons-lang3/3.11/commons-lang3-3.11.jar
-[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/velocity/velocity-engine-core/2.2/velocity-engine-core-2.2.jar (525 kB at 319 kB/s)
-[INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/jsoup/jsoup/1.13.1/jsoup-1.13.1.jar
-[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/slf4j/slf4j-api/1.7.30/slf4j-api-1.7.30.jar (41 kB at 21 kB/s)
-[INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/googlecode/owasp-java-html-sanitizer/owasp-java-html-sanitizer/20200713.1/owasp-java-html-sanitizer-20200713.1.jar
-[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/fasterxml/jackson/core/jackson-core/2.12.1/jackson-core-2.12.1.jar (365 kB at 171 kB/s)
-[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/jsoup/jsoup/1.13.1/jsoup-1.13.1.jar (394 kB at 174 kB/s)
-[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/googlecode/owasp-java-html-sanitizer/owasp-java-html-sanitizer/20200713.1/owasp-java-html-sanitizer-20200713.1.jar (240 kB at 95 kB/s)
-[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/commons/commons-lang3/3.11/commons-lang3-3.11.jar (578 kB at 218 kB/s)
-[INFO] Downloaded from central: https://repo.maven.apache.org/maven2/joda-time/joda-time/2.10.9/joda-time-2.10.9.jar (644 kB at 145 kB/s)
 [INFO] About to generate Cucumber report.
 [INFO] File 'C:\Users\sarth\eclipse-workspace\QuotableAPI\target\cucumber-reports\cucumber.json' contains 1 features
 [INFO] ------------------------------------------------------------------------
 [INFO] BUILD SUCCESS
 [INFO] ------------------------------------------------------------------------
-[INFO] Total time:  58.039 s
-[INFO] Finished at: 2021-06-27T20:04:44+05:30
+[INFO] Total time:  29.699 s
+[INFO] Finished at: 2021-06-27T20:52:19+05:30
 [INFO] ------------------------------------------------------------------------
 Waiting for Jenkins to finish collecting data
 [JENKINS] Archiving C:\Users\sarth\eclipse-workspace\QuotableAPI\pom.xml to Quotable-API/Quotable-API/0.0.1-SNAPSHOT/Quotable-API-0.0.1-SNAPSHOT.pom
 [JENKINS] Archiving C:\Users\sarth\eclipse-workspace\QuotableAPI\target\Quotable-API-0.0.1-SNAPSHOT.jar to Quotable-API/Quotable-API/0.0.1-SNAPSHOT/Quotable-API-0.0.1-SNAPSHOT.jar
-channel stopped
 Finished: SUCCESS
