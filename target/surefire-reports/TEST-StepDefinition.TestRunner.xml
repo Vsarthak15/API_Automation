@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="100" failures="0" name="StepDefinition.TestRunner" time="0.006" errors="0" skipped="0">
+<testsuite tests="115" failures="0" name="StepDefinition.TestRunner" time="0.012" errors="0" skipped="0">
   <properties>
     <property name="java.vendor" value="Oracle Corporation"/>
     <property name="JOB_NAME" value="API Automation"/>
-    <property name="RUN_TESTS_DISPLAY_URL" value="http://localhost:8080/job/API%20Automation/22/display/redirect?page=tests"/>
+    <property name="RUN_TESTS_DISPLAY_URL" value="http://localhost:8080/job/API%20Automation/24/display/redirect?page=tests"/>
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="NUMBER_OF_PROCESSORS" value="8"/>
     <property name="sun.management.compiler" value="HotSpot Client Compiler"/>
@@ -27,8 +27,8 @@
     <property name="ProgramFiles" value="C:\Program Files (x86)"/>
     <property name="user.language" value="en"/>
     <property name="JOB_BASE_NAME" value="API Automation"/>
-    <property name="RUN_CHANGES_DISPLAY_URL" value="http://localhost:8080/job/API%20Automation/22/display/redirect?page=changes"/>
-    <property name="BUILD_DISPLAY_NAME" value="#22"/>
+    <property name="RUN_CHANGES_DISPLAY_URL" value="http://localhost:8080/job/API%20Automation/24/display/redirect?page=changes"/>
+    <property name="BUILD_DISPLAY_NAME" value="#24"/>
     <property name="sun.boot.library.path" value="C:\Program Files (x86)\Java\jre1.8.0_291\bin"/>
     <property name="LOCALAPPDATA" value="C:\Windows\system32\config\systemprofile\AppData\Local"/>
     <property name="java.version" value="1.8.0_291"/>
@@ -39,7 +39,7 @@
     <property name="NODE_NAME" value="master"/>
     <property name="PROCESSOR_ARCHITEW6432" value="AMD64"/>
     <property name="java.endorsed.dirs" value="C:\Program Files (x86)\Java\jre1.8.0_291\lib\endorsed"/>
-    <property name="BUILD_ID" value="22"/>
+    <property name="BUILD_ID" value="24"/>
     <property name="sun.cpu.isalist" value="pentium_pro+mmx pentium_pro pentium+mmx pentium i486 i386 i86"/>
     <property name="sun.jnu.encoding" value="Cp1252"/>
     <property name="file.encoding.pkg" value="sun.io"/>
@@ -53,10 +53,10 @@
     <property name="java.home" value="C:\Program Files (x86)\Java\jre1.8.0_291"/>
     <property name="java.vm.info" value="mixed mode, sharing"/>
     <property name="os.version" value="10.0"/>
-    <property name="RUN_DISPLAY_URL" value="http://localhost:8080/job/API%20Automation/22/display/redirect"/>
+    <property name="RUN_DISPLAY_URL" value="http://localhost:8080/job/API%20Automation/24/display/redirect"/>
     <property name="POM_VERSION" value="0.0.1-SNAPSHOT"/>
     <property name="TMP" value="C:\Windows\TEMP"/>
-    <property name="RUN_ARTIFACTS_DISPLAY_URL" value="http://localhost:8080/job/API%20Automation/22/display/redirect?page=artifacts"/>
+    <property name="RUN_ARTIFACTS_DISPLAY_URL" value="http://localhost:8080/job/API%20Automation/24/display/redirect?page=artifacts"/>
     <property name="path.separator" value=";"/>
     <property name="java.vm.version" value="25.291-b10"/>
     <property name="user.variant" value=""/>
@@ -75,7 +75,7 @@
     <property name="POM_GROUPID" value="Quotable-API"/>
     <property name="user.home" value="C:\Windows\system32\config\systemprofile"/>
     <property name="PUBLIC" value="C:\Users\Public"/>
-    <property name="BUILD_TAG" value="jenkins-API Automation-22"/>
+    <property name="BUILD_TAG" value="jenkins-API Automation-24"/>
     <property name="JENKINS_SERVER_COOKIE" value="56f05ac55b937ba6"/>
     <property name="HUDSON_URL" value="http://localhost:8080/"/>
     <property name="ProgramData" value="C:\ProgramData"/>
@@ -90,7 +90,7 @@
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="maven.home" value="C:\Program Files (x86)\apache-maven-3.8.1"/>
     <property name="java.class.path" value="C:\Windows\system32\config\systemprofile\AppData\Local\Jenkins\.jenkins\plugins\maven-plugin\WEB-INF\lib\maven35-agent-1.13.jar;C:\Program Files (x86)\apache-maven-3.8.1\boot\plexus-classworlds-2.6.0.jar;C:\Program Files (x86)\apache-maven-3.8.1/conf/logging"/>
-    <property name="sun.java.command" value="jenkins.maven3.agent.Maven35Main C:\Program Files (x86)\apache-maven-3.8.1 C:\Windows\System32\config\systemprofile\AppData\Local\Jenkins\war\WEB-INF\lib\remoting-4.7.jar C:\Windows\system32\config\systemprofile\AppData\Local\Jenkins\.jenkins\plugins\maven-plugin\WEB-INF\lib\maven35-interceptor-1.13.jar C:\Windows\system32\config\systemprofile\AppData\Local\Jenkins\.jenkins\plugins\maven-plugin\WEB-INF\lib\maven3-interceptor-commons-1.13.jar 12840"/>
+    <property name="sun.java.command" value="jenkins.maven3.agent.Maven35Main C:\Program Files (x86)\apache-maven-3.8.1 C:\Windows\System32\config\systemprofile\AppData\Local\Jenkins\war\WEB-INF\lib\remoting-4.7.jar C:\Windows\system32\config\systemprofile\AppData\Local\Jenkins\.jenkins\plugins\maven-plugin\WEB-INF\lib\maven35-interceptor-1.13.jar C:\Windows\system32\config\systemprofile\AppData\Local\Jenkins\.jenkins\plugins\maven-plugin\WEB-INF\lib\maven3-interceptor-commons-1.13.jar 4636"/>
     <property name="Path" value="C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;E:\Git\cmd;C:\Windows\system32\config\systemprofile\AppData\Local\Microsoft\WindowsApps"/>
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
     <property name="PROCESSOR_ARCHITECTURE" value="x86"/>
@@ -105,7 +105,7 @@
     <property name="HUDSON_HOME" value="C:\Windows\system32\config\systemprofile\AppData\Local\Jenkins\.jenkins"/>
     <property name="PATH+MAVEN" value="C:\Program Files (x86)\apache-maven-3.8.1/bin"/>
     <property name="ProgramFiles(x86)" value="C:\Program Files (x86)"/>
-    <property name="BUILD_URL" value="http://localhost:8080/job/API%20Automation/22/"/>
+    <property name="BUILD_URL" value="http://localhost:8080/job/API%20Automation/24/"/>
     <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
     <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
     <property name="os.arch" value="x86"/>
@@ -117,7 +117,7 @@
     <property name="line.separator" value="
 "/>
     <property name="java.vm.name" value="Java HotSpot(TM) Client VM"/>
-    <property name="BUILD_NUMBER" value="22"/>
+    <property name="BUILD_NUMBER" value="24"/>
     <property name="BASE" value="E:\Jenkins"/>
     <property name="JENKINS_URL" value="http://localhost:8080/"/>
     <property name="PROCESSOR_REVISION" value="3a09"/>
@@ -139,6 +139,11 @@
   <testcase classname="| postive case with value 1 | pages | 1 | count | 20 |" name="And I execute the API" time="0"/>
   <testcase classname="| postive case with value 1 | pages | 1 | count | 20 |" name="Then I validate &quot;count&quot; with &quot;20&quot;" time="0"/>
   <testcase classname="| postive case with value 1 | pages | 1 | count | 20 |" name="| postive case with value 1 | pages | 1 | count | 20 |" time="0.001"/>
+  <testcase classname="| negative case with value | pages |  | count | 20 |" name="Given I add the url" time="0"/>
+  <testcase classname="| negative case with value | pages |  | count | 20 |" name="And I add parameter &quot;pages&quot; with &quot;&quot;" time="0"/>
+  <testcase classname="| negative case with value | pages |  | count | 20 |" name="And I execute the API" time="0"/>
+  <testcase classname="| negative case with value | pages |  | count | 20 |" name="Then I validate &quot;count&quot; with &quot;20&quot;" time="0"/>
+  <testcase classname="| negative case with value | pages |  | count | 20 |" name="| negative case with value | pages |  | count | 20 |" time="0"/>
   <testcase classname="| negative case with value 20000 | pages | 20000 | count | 20 |" name="Given I add the url" time="0"/>
   <testcase classname="| negative case with value 20000 | pages | 20000 | count | 20 |" name="And I add parameter &quot;pages&quot; with &quot;20000&quot;" time="0"/>
   <testcase classname="| negative case with value 20000 | pages | 20000 | count | 20 |" name="And I execute the API" time="0"/>
@@ -148,12 +153,12 @@
   <testcase classname="| negative case with value !@ | pages | !@ | count | 20 |" name="And I add parameter &quot;pages&quot; with &quot;!@&quot;" time="0"/>
   <testcase classname="| negative case with value !@ | pages | !@ | count | 20 |" name="And I execute the API" time="0"/>
   <testcase classname="| negative case with value !@ | pages | !@ | count | 20 |" name="Then I validate &quot;count&quot; with &quot;20&quot;" time="0"/>
-  <testcase classname="| negative case with value !@ | pages | !@ | count | 20 |" name="| negative case with value !@ | pages | !@ | count | 20 |" time="0.001"/>
+  <testcase classname="| negative case with value !@ | pages | !@ | count | 20 |" name="| negative case with value !@ | pages | !@ | count | 20 |" time="0"/>
   <testcase classname="| negative case with value 2abc | pages | 2abc | count | 20 |" name="Given I add the url" time="0"/>
   <testcase classname="| negative case with value 2abc | pages | 2abc | count | 20 |" name="And I add parameter &quot;pages&quot; with &quot;2abc&quot;" time="0"/>
   <testcase classname="| negative case with value 2abc | pages | 2abc | count | 20 |" name="And I execute the API" time="0"/>
   <testcase classname="| negative case with value 2abc | pages | 2abc | count | 20 |" name="Then I validate &quot;count&quot; with &quot;20&quot;" time="0"/>
-  <testcase classname="| negative case with value 2abc | pages | 2abc | count | 20 |" name="| negative case with value 2abc | pages | 2abc | count | 20 |" time="0.001"/>
+  <testcase classname="| negative case with value 2abc | pages | 2abc | count | 20 |" name="| negative case with value 2abc | pages | 2abc | count | 20 |" time="0"/>
   <testcase classname="| negative case with value xyz | pages | xyz | count | 20 |" name="Given I add the url" time="0"/>
   <testcase classname="| negative case with value xyz | pages | xyz | count | 20 |" name="And I add parameter &quot;pages&quot; with &quot;xyz&quot;" time="0"/>
   <testcase classname="| negative case with value xyz | pages | xyz | count | 20 |" name="And I execute the API" time="0"/>
@@ -174,6 +179,11 @@
   <testcase classname="| postive case with value technology,famous-quotes | tags | technology,famous-quotes | count | 4 |" name="And I execute the API" time="0"/>
   <testcase classname="| postive case with value technology,famous-quotes | tags | technology,famous-quotes | count | 4 |" name="Then I validate &quot;count&quot; with &quot;4&quot;" time="0"/>
   <testcase classname="| postive case with value technology,famous-quotes | tags | technology,famous-quotes | count | 4 |" name="| postive case with value technology,famous-quotes | tags | technology,famous-quotes | count | 4 |" time="0"/>
+  <testcase classname="| negative case with value | tags |  | count | 20 |" name="Given I add the url" time="0"/>
+  <testcase classname="| negative case with value | tags |  | count | 20 |" name="And I add parameter &quot;tags&quot; with &quot;&quot;" time="0"/>
+  <testcase classname="| negative case with value | tags |  | count | 20 |" name="And I execute the API" time="0.001"/>
+  <testcase classname="| negative case with value | tags |  | count | 20 |" name="Then I validate &quot;count&quot; with &quot;20&quot;" time="0"/>
+  <testcase classname="| negative case with value | tags |  | count | 20 |" name="| negative case with value | tags |  | count | 20 |" time="0"/>
   <testcase classname="| negative case with value 20000 | tags | 20000 | count | 0 |" name="Given I add the url" time="0"/>
   <testcase classname="| negative case with value 20000 | tags | 20000 | count | 0 |" name="And I add parameter &quot;tags&quot; with &quot;20000&quot;" time="0"/>
   <testcase classname="| negative case with value 20000 | tags | 20000 | count | 0 |" name="And I execute the API" time="0"/>
@@ -198,17 +208,22 @@
   <testcase classname="| negative case with value -10 | tags | -10 | count | 0 |" name="And I add parameter &quot;tags&quot; with &quot;-10&quot;" time="0"/>
   <testcase classname="| negative case with value -10 | tags | -10 | count | 0 |" name="And I execute the API" time="0"/>
   <testcase classname="| negative case with value -10 | tags | -10 | count | 0 |" name="Then I validate &quot;count&quot; with &quot;0&quot;" time="0"/>
-  <testcase classname="| negative case with value -10 | tags | -10 | count | 0 |" name="| negative case with value -10 | tags | -10 | count | 0 |" time="0"/>
+  <testcase classname="| negative case with value -10 | tags | -10 | count | 0 |" name="| negative case with value -10 | tags | -10 | count | 0 |" time="0.001"/>
   <testcase classname="| postive case with value albert-einstein | author | albert-einstein | count | 20 |" name="Given I add the url" time="0"/>
   <testcase classname="| postive case with value albert-einstein | author | albert-einstein | count | 20 |" name="And I add parameter &quot;author&quot; with &quot;albert-einstein&quot;" time="0"/>
   <testcase classname="| postive case with value albert-einstein | author | albert-einstein | count | 20 |" name="And I execute the API" time="0"/>
   <testcase classname="| postive case with value albert-einstein | author | albert-einstein | count | 20 |" name="Then I validate &quot;count&quot; with &quot;20&quot;" time="0"/>
-  <testcase classname="| postive case with value albert-einstein | author | albert-einstein | count | 20 |" name="| postive case with value albert-einstein | author | albert-einstein | count | 20 |" time="0"/>
+  <testcase classname="| postive case with value albert-einstein | author | albert-einstein | count | 20 |" name="| postive case with value albert-einstein | author | albert-einstein | count | 20 |" time="0.001"/>
   <testcase classname="| postive case with value asd@-eins232$3n | author | asd@-eins232$3n | count | 0 |" name="Given I add the url" time="0"/>
   <testcase classname="| postive case with value asd@-eins232$3n | author | asd@-eins232$3n | count | 0 |" name="And I add parameter &quot;author&quot; with &quot;asd@-eins232$3n&quot;" time="0"/>
   <testcase classname="| postive case with value asd@-eins232$3n | author | asd@-eins232$3n | count | 0 |" name="And I execute the API" time="0"/>
   <testcase classname="| postive case with value asd@-eins232$3n | author | asd@-eins232$3n | count | 0 |" name="Then I validate &quot;count&quot; with &quot;0&quot;" time="0"/>
-  <testcase classname="| postive case with value asd@-eins232$3n | author | asd@-eins232$3n | count | 0 |" name="| postive case with value asd@-eins232$3n | author | asd@-eins232$3n | count | 0 |" time="0.001"/>
+  <testcase classname="| postive case with value asd@-eins232$3n | author | asd@-eins232$3n | count | 0 |" name="| postive case with value asd@-eins232$3n | author | asd@-eins232$3n | count | 0 |" time="0"/>
+  <testcase classname="| negative case with value | author |  | count | 20 |" name="Given I add the url" time="0"/>
+  <testcase classname="| negative case with value | author |  | count | 20 |" name="And I add parameter &quot;author&quot; with &quot;&quot;" time="0"/>
+  <testcase classname="| negative case with value | author |  | count | 20 |" name="And I execute the API" time="0"/>
+  <testcase classname="| negative case with value | author |  | count | 20 |" name="Then I validate &quot;count&quot; with &quot;20&quot;" time="0"/>
+  <testcase classname="| negative case with value | author |  | count | 20 |" name="| negative case with value | author |  | count | 20 |" time="0.001"/>
   <testcase classname="| negative case with value 20000 | author | 20000 | count | 0 |" name="Given I add the url" time="0"/>
   <testcase classname="| negative case with value 20000 | author | 20000 | count | 0 |" name="And I add parameter &quot;author&quot; with &quot;20000&quot;" time="0"/>
   <testcase classname="| negative case with value 20000 | author | 20000 | count | 0 |" name="And I execute the API" time="0"/>
@@ -222,13 +237,13 @@
   <testcase classname="| negative case with value 2abc | author | 2abc | count | 0 |" name="Given I add the url" time="0"/>
   <testcase classname="| negative case with value 2abc | author | 2abc | count | 0 |" name="And I add parameter &quot;author&quot; with &quot;2abc&quot;" time="0"/>
   <testcase classname="| negative case with value 2abc | author | 2abc | count | 0 |" name="And I execute the API" time="0"/>
-  <testcase classname="| negative case with value 2abc | author | 2abc | count | 0 |" name="Then I validate &quot;count&quot; with &quot;0&quot;" time="0"/>
-  <testcase classname="| negative case with value 2abc | author | 2abc | count | 0 |" name="| negative case with value 2abc | author | 2abc | count | 0 |" time="0"/>
+  <testcase classname="| negative case with value 2abc | author | 2abc | count | 0 |" name="Then I validate &quot;count&quot; with &quot;0&quot;" time="0.002"/>
+  <testcase classname="| negative case with value 2abc | author | 2abc | count | 0 |" name="| negative case with value 2abc | author | 2abc | count | 0 |" time="0.002"/>
   <testcase classname="| negative case with value xyz | author | xyz | count | 0 |" name="Given I add the url" time="0"/>
   <testcase classname="| negative case with value xyz | author | xyz | count | 0 |" name="And I add parameter &quot;author&quot; with &quot;xyz&quot;" time="0"/>
   <testcase classname="| negative case with value xyz | author | xyz | count | 0 |" name="And I execute the API" time="0"/>
   <testcase classname="| negative case with value xyz | author | xyz | count | 0 |" name="Then I validate &quot;count&quot; with &quot;0&quot;" time="0"/>
-  <testcase classname="| negative case with value xyz | author | xyz | count | 0 |" name="| negative case with value xyz | author | xyz | count | 0 |" time="0"/>
+  <testcase classname="| negative case with value xyz | author | xyz | count | 0 |" name="| negative case with value xyz | author | xyz | count | 0 |" time="0.001"/>
   <testcase classname="| negative case with value -10 | author | -10 | count | 0 |" name="Given I add the url" time="0"/>
   <testcase classname="| negative case with value -10 | author | -10 | count | 0 |" name="And I add parameter &quot;author&quot; with &quot;-10&quot;" time="0"/>
   <testcase classname="| negative case with value -10 | author | -10 | count | 0 |" name="And I execute the API" time="0"/>
