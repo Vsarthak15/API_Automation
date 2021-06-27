@@ -1,7 +1,8 @@
 package StepDefinition;
 
-import org.testng.Assert;
 
+
+import org.junit.Assert;
 import TestSDET.QuotableAPI.Base;
 import TestSDET.QuotableAPI.ReqResMethod;
 import cucumber.api.java.en.And;

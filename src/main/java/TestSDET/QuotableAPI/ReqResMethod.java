@@ -61,7 +61,7 @@ public class ReqResMethod {
 
 	}
 
-	public String processJSON(String json, String tag) throws IOException {
+	public String processJSON(String json, String tag) throws JsonMappingException, JsonProcessingException  {
         ObjectMapper mapper = new ObjectMapper();     
         JsonNode node = mapper.readTree(json);        
         String val=processNode(node, tag);        

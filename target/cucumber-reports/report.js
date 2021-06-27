@@ -8,9 +8,9 @@ formatter.feature({
 });
 formatter.scenarioOutline({
   "line": 4,
-  "name": "Validate \"\u003cvalue\u003e\" with page parameter",
+  "name": "Validate \"\u003cvalue\u003e\" with \"\u003cparam1\u003e\" parameter",
   "description": "",
-  "id": "agoda-test;validate-\"\u003cvalue\u003e\"-with-page-parameter",
+  "id": "agoda-test;validate-\"\u003cvalue\u003e\"-with-\"\u003cparam1\u003e\"-parameter",
   "type": "scenario_outline",
   "keyword": "Scenario Outline",
   "tags": [
@@ -41,86 +41,100 @@ formatter.step({
 });
 formatter.step({
   "line": 8,
-  "name": "I validate \"Resultcode\" with \"200\"",
+  "name": "I validate \"\u003cvalidate1\u003e\" with \"\u003cvalidate_val\u003e\"",
   "keyword": "Then "
 });
 formatter.examples({
   "line": 10,
   "name": "",
   "description": "",
-  "id": "agoda-test;validate-\"\u003cvalue\u003e\"-with-page-parameter;",
+  "id": "agoda-test;validate-\"\u003cvalue\u003e\"-with-\"\u003cparam1\u003e\"-parameter;",
   "rows": [
     {
       "cells": [
         "value",
         "param1",
-        "param_val"
+        "param_val",
+        "validate1",
+        "validate_val"
       ],
       "line": 11,
-      "id": "agoda-test;validate-\"\u003cvalue\u003e\"-with-page-parameter;;1"
+      "id": "agoda-test;validate-\"\u003cvalue\u003e\"-with-\"\u003cparam1\u003e\"-parameter;;1"
     },
     {
       "cells": [
         "postive case with value 1",
         "pages",
-        "1"
+        "1",
+        "count",
+        "20"
       ],
       "line": 12,
-      "id": "agoda-test;validate-\"\u003cvalue\u003e\"-with-page-parameter;;2"
+      "id": "agoda-test;validate-\"\u003cvalue\u003e\"-with-\"\u003cparam1\u003e\"-parameter;;2"
     },
     {
       "cells": [
         "negative case with value 20000",
         "pages",
-        "20000"
+        "20000",
+        "count",
+        "20"
       ],
       "line": 13,
-      "id": "agoda-test;validate-\"\u003cvalue\u003e\"-with-page-parameter;;3"
+      "id": "agoda-test;validate-\"\u003cvalue\u003e\"-with-\"\u003cparam1\u003e\"-parameter;;3"
     },
     {
       "cells": [
         "negative case with value !@",
         "pages",
-        "!@"
+        "!@",
+        "count",
+        "20"
       ],
       "line": 14,
-      "id": "agoda-test;validate-\"\u003cvalue\u003e\"-with-page-parameter;;4"
+      "id": "agoda-test;validate-\"\u003cvalue\u003e\"-with-\"\u003cparam1\u003e\"-parameter;;4"
     },
     {
       "cells": [
         "negative case with value 2abc",
         "pages",
-        "2abc"
+        "2abc",
+        "count",
+        "20"
       ],
       "line": 15,
-      "id": "agoda-test;validate-\"\u003cvalue\u003e\"-with-page-parameter;;5"
+      "id": "agoda-test;validate-\"\u003cvalue\u003e\"-with-\"\u003cparam1\u003e\"-parameter;;5"
     },
     {
       "cells": [
         "negative case with value xyz",
         "pages",
-        "xyz"
+        "xyz",
+        "count",
+        "20"
       ],
       "line": 16,
-      "id": "agoda-test;validate-\"\u003cvalue\u003e\"-with-page-parameter;;6"
+      "id": "agoda-test;validate-\"\u003cvalue\u003e\"-with-\"\u003cparam1\u003e\"-parameter;;6"
     },
     {
       "cells": [
         "negative case with value -10",
         "pages",
-        "-10"
+        "-10",
+        "count",
+        "20"
       ],
       "line": 17,
-      "id": "agoda-test;validate-\"\u003cvalue\u003e\"-with-page-parameter;;7"
+      "id": "agoda-test;validate-\"\u003cvalue\u003e\"-with-\"\u003cparam1\u003e\"-parameter;;7"
     }
   ],
   "keyword": "Examples"
 });
 formatter.scenario({
   "line": 12,
-  "name": "Validate \"postive case with value 1\" with page parameter",
+  "name": "Validate \"postive case with value 1\" with \"pages\" parameter",
   "description": "",
-  "id": "agoda-test;validate-\"\u003cvalue\u003e\"-with-page-parameter;;2",
+  "id": "agoda-test;validate-\"\u003cvalue\u003e\"-with-\"\u003cparam1\u003e\"-parameter;;2",
   "type": "scenario",
   "keyword": "Scenario Outline",
   "tags": [
@@ -155,14 +169,18 @@ formatter.step({
 });
 formatter.step({
   "line": 8,
-  "name": "I validate \"Resultcode\" with \"200\"",
+  "name": "I validate \"count\" with \"20\"",
+  "matchedColumns": [
+    3,
+    4
+  ],
   "keyword": "Then "
 });
 formatter.match({
   "location": "StepDef.iAddTheurl()"
 });
 formatter.result({
-  "duration": 93194500,
+  "duration": 116206300,
   "status": "passed"
 });
 formatter.match({
@@ -179,38 +197,38 @@ formatter.match({
   "location": "StepDef.iAddParameters(String,String)"
 });
 formatter.result({
-  "duration": 2161600,
+  "duration": 3030000,
   "status": "passed"
 });
 formatter.match({
   "location": "StepDef.iExecuteAPI()"
 });
 formatter.result({
-  "duration": 1833736800,
+  "duration": 1904847700,
   "status": "passed"
 });
 formatter.match({
   "arguments": [
     {
-      "val": "Resultcode",
+      "val": "count",
       "offset": 12
     },
     {
-      "val": "200",
-      "offset": 30
+      "val": "20",
+      "offset": 25
     }
   ],
   "location": "StepDef.iValidateResponse(String,String)"
 });
 formatter.result({
-  "duration": 66600,
+  "duration": 193918300,
   "status": "passed"
 });
 formatter.scenario({
   "line": 13,
-  "name": "Validate \"negative case with value 20000\" with page parameter",
+  "name": "Validate \"negative case with value 20000\" with \"pages\" parameter",
   "description": "",
-  "id": "agoda-test;validate-\"\u003cvalue\u003e\"-with-page-parameter;;3",
+  "id": "agoda-test;validate-\"\u003cvalue\u003e\"-with-\"\u003cparam1\u003e\"-parameter;;3",
   "type": "scenario",
   "keyword": "Scenario Outline",
   "tags": [
@@ -245,14 +263,18 @@ formatter.step({
 });
 formatter.step({
   "line": 8,
-  "name": "I validate \"Resultcode\" with \"200\"",
+  "name": "I validate \"count\" with \"20\"",
+  "matchedColumns": [
+    3,
+    4
+  ],
   "keyword": "Then "
 });
 formatter.match({
   "location": "StepDef.iAddTheurl()"
 });
 formatter.result({
-  "duration": 74500,
+  "duration": 121000,
   "status": "passed"
 });
 formatter.match({
@@ -269,38 +291,38 @@ formatter.match({
   "location": "StepDef.iAddParameters(String,String)"
 });
 formatter.result({
-  "duration": 74100,
+  "duration": 69700,
   "status": "passed"
 });
 formatter.match({
   "location": "StepDef.iExecuteAPI()"
 });
 formatter.result({
-  "duration": 1001540500,
+  "duration": 991171600,
   "status": "passed"
 });
 formatter.match({
   "arguments": [
     {
-      "val": "Resultcode",
+      "val": "count",
       "offset": 12
     },
     {
-      "val": "200",
-      "offset": 30
+      "val": "20",
+      "offset": 25
     }
   ],
   "location": "StepDef.iValidateResponse(String,String)"
 });
 formatter.result({
-  "duration": 52300,
+  "duration": 1102000,
   "status": "passed"
 });
 formatter.scenario({
   "line": 14,
-  "name": "Validate \"negative case with value !@\" with page parameter",
+  "name": "Validate \"negative case with value !@\" with \"pages\" parameter",
   "description": "",
-  "id": "agoda-test;validate-\"\u003cvalue\u003e\"-with-page-parameter;;4",
+  "id": "agoda-test;validate-\"\u003cvalue\u003e\"-with-\"\u003cparam1\u003e\"-parameter;;4",
   "type": "scenario",
   "keyword": "Scenario Outline",
   "tags": [
@@ -335,14 +357,18 @@ formatter.step({
 });
 formatter.step({
   "line": 8,
-  "name": "I validate \"Resultcode\" with \"200\"",
+  "name": "I validate \"count\" with \"20\"",
+  "matchedColumns": [
+    3,
+    4
+  ],
   "keyword": "Then "
 });
 formatter.match({
   "location": "StepDef.iAddTheurl()"
 });
 formatter.result({
-  "duration": 49500,
+  "duration": 47600,
   "status": "passed"
 });
 formatter.match({
@@ -359,38 +385,38 @@ formatter.match({
   "location": "StepDef.iAddParameters(String,String)"
 });
 formatter.result({
-  "duration": 52200,
+  "duration": 88700,
   "status": "passed"
 });
 formatter.match({
   "location": "StepDef.iExecuteAPI()"
 });
 formatter.result({
-  "duration": 984390300,
+  "duration": 998305300,
   "status": "passed"
 });
 formatter.match({
   "arguments": [
     {
-      "val": "Resultcode",
+      "val": "count",
       "offset": 12
     },
     {
-      "val": "200",
-      "offset": 30
+      "val": "20",
+      "offset": 25
     }
   ],
   "location": "StepDef.iValidateResponse(String,String)"
 });
 formatter.result({
-  "duration": 56000,
+  "duration": 2211400,
   "status": "passed"
 });
 formatter.scenario({
   "line": 15,
-  "name": "Validate \"negative case with value 2abc\" with page parameter",
+  "name": "Validate \"negative case with value 2abc\" with \"pages\" parameter",
   "description": "",
-  "id": "agoda-test;validate-\"\u003cvalue\u003e\"-with-page-parameter;;5",
+  "id": "agoda-test;validate-\"\u003cvalue\u003e\"-with-\"\u003cparam1\u003e\"-parameter;;5",
   "type": "scenario",
   "keyword": "Scenario Outline",
   "tags": [
@@ -425,14 +451,18 @@ formatter.step({
 });
 formatter.step({
   "line": 8,
-  "name": "I validate \"Resultcode\" with \"200\"",
+  "name": "I validate \"count\" with \"20\"",
+  "matchedColumns": [
+    3,
+    4
+  ],
   "keyword": "Then "
 });
 formatter.match({
   "location": "StepDef.iAddTheurl()"
 });
 formatter.result({
-  "duration": 87300,
+  "duration": 104400,
   "status": "passed"
 });
 formatter.match({
@@ -449,38 +479,38 @@ formatter.match({
   "location": "StepDef.iAddParameters(String,String)"
 });
 formatter.result({
-  "duration": 88600,
+  "duration": 64800,
   "status": "passed"
 });
 formatter.match({
   "location": "StepDef.iExecuteAPI()"
 });
 formatter.result({
-  "duration": 992106700,
+  "duration": 970559600,
   "status": "passed"
 });
 formatter.match({
   "arguments": [
     {
-      "val": "Resultcode",
+      "val": "count",
       "offset": 12
     },
     {
-      "val": "200",
-      "offset": 30
+      "val": "20",
+      "offset": 25
     }
   ],
   "location": "StepDef.iValidateResponse(String,String)"
 });
 formatter.result({
-  "duration": 55600,
+  "duration": 854300,
   "status": "passed"
 });
 formatter.scenario({
   "line": 16,
-  "name": "Validate \"negative case with value xyz\" with page parameter",
+  "name": "Validate \"negative case with value xyz\" with \"pages\" parameter",
   "description": "",
-  "id": "agoda-test;validate-\"\u003cvalue\u003e\"-with-page-parameter;;6",
+  "id": "agoda-test;validate-\"\u003cvalue\u003e\"-with-\"\u003cparam1\u003e\"-parameter;;6",
   "type": "scenario",
   "keyword": "Scenario Outline",
   "tags": [
@@ -515,14 +545,18 @@ formatter.step({
 });
 formatter.step({
   "line": 8,
-  "name": "I validate \"Resultcode\" with \"200\"",
+  "name": "I validate \"count\" with \"20\"",
+  "matchedColumns": [
+    3,
+    4
+  ],
   "keyword": "Then "
 });
 formatter.match({
   "location": "StepDef.iAddTheurl()"
 });
 formatter.result({
-  "duration": 51100,
+  "duration": 57100,
   "status": "passed"
 });
 formatter.match({
@@ -539,38 +573,38 @@ formatter.match({
   "location": "StepDef.iAddParameters(String,String)"
 });
 formatter.result({
-  "duration": 62300,
+  "duration": 60000,
   "status": "passed"
 });
 formatter.match({
   "location": "StepDef.iExecuteAPI()"
 });
 formatter.result({
-  "duration": 996403000,
+  "duration": 959083000,
   "status": "passed"
 });
 formatter.match({
   "arguments": [
     {
-      "val": "Resultcode",
+      "val": "count",
       "offset": 12
     },
     {
-      "val": "200",
-      "offset": 30
+      "val": "20",
+      "offset": 25
     }
   ],
   "location": "StepDef.iValidateResponse(String,String)"
 });
 formatter.result({
-  "duration": 54200,
+  "duration": 871500,
   "status": "passed"
 });
 formatter.scenario({
   "line": 17,
-  "name": "Validate \"negative case with value -10\" with page parameter",
+  "name": "Validate \"negative case with value -10\" with \"pages\" parameter",
   "description": "",
-  "id": "agoda-test;validate-\"\u003cvalue\u003e\"-with-page-parameter;;7",
+  "id": "agoda-test;validate-\"\u003cvalue\u003e\"-with-\"\u003cparam1\u003e\"-parameter;;7",
   "type": "scenario",
   "keyword": "Scenario Outline",
   "tags": [
@@ -605,14 +639,18 @@ formatter.step({
 });
 formatter.step({
   "line": 8,
-  "name": "I validate \"Resultcode\" with \"200\"",
+  "name": "I validate \"count\" with \"20\"",
+  "matchedColumns": [
+    3,
+    4
+  ],
   "keyword": "Then "
 });
 formatter.match({
   "location": "StepDef.iAddTheurl()"
 });
 formatter.result({
-  "duration": 52400,
+  "duration": 102600,
   "status": "passed"
 });
 formatter.match({
@@ -629,38 +667,38 @@ formatter.match({
   "location": "StepDef.iAddParameters(String,String)"
 });
 formatter.result({
-  "duration": 61900,
+  "duration": 88700,
   "status": "passed"
 });
 formatter.match({
   "location": "StepDef.iExecuteAPI()"
 });
 formatter.result({
-  "duration": 961933300,
+  "duration": 956868500,
   "status": "passed"
 });
 formatter.match({
   "arguments": [
     {
-      "val": "Resultcode",
+      "val": "count",
       "offset": 12
     },
     {
-      "val": "200",
-      "offset": 30
+      "val": "20",
+      "offset": 25
     }
   ],
   "location": "StepDef.iValidateResponse(String,String)"
 });
 formatter.result({
-  "duration": 55100,
+  "duration": 887800,
   "status": "passed"
 });
 formatter.scenarioOutline({
   "line": 20,
-  "name": "Validate \"\u003cvalue\u003e\" with page parameter",
+  "name": "Validate \"\u003cvalue\u003e\" with \"\u003cparam1\u003e\" parameter",
   "description": "",
-  "id": "agoda-test;validate-\"\u003cvalue\u003e\"-with-page-parameter",
+  "id": "agoda-test;validate-\"\u003cvalue\u003e\"-with-\"\u003cparam1\u003e\"-parameter",
   "type": "scenario_outline",
   "keyword": "Scenario Outline",
   "tags": [
@@ -691,95 +729,111 @@ formatter.step({
 });
 formatter.step({
   "line": 24,
-  "name": "I validate \"Resultcode\" with \"200\"",
+  "name": "I validate \"\u003cvalidate1\u003e\" with \"\u003cvalidate_val\u003e\"",
   "keyword": "Then "
 });
 formatter.examples({
   "line": 26,
   "name": "",
   "description": "",
-  "id": "agoda-test;validate-\"\u003cvalue\u003e\"-with-page-parameter;",
+  "id": "agoda-test;validate-\"\u003cvalue\u003e\"-with-\"\u003cparam1\u003e\"-parameter;",
   "rows": [
     {
       "cells": [
         "value",
         "param1",
-        "param_val"
+        "param_val",
+        "validate1",
+        "validate_val"
       ],
       "line": 27,
-      "id": "agoda-test;validate-\"\u003cvalue\u003e\"-with-page-parameter;;1"
+      "id": "agoda-test;validate-\"\u003cvalue\u003e\"-with-\"\u003cparam1\u003e\"-parameter;;1"
     },
     {
       "cells": [
         "postive case with value love-happiness",
         "tags",
-        "love%7Chappiness"
+        "love%7Chappiness",
+        "count",
+        "13"
       ],
       "line": 28,
-      "id": "agoda-test;validate-\"\u003cvalue\u003e\"-with-page-parameter;;2"
+      "id": "agoda-test;validate-\"\u003cvalue\u003e\"-with-\"\u003cparam1\u003e\"-parameter;;2"
     },
     {
       "cells": [
         "postive case with value technology,famous-quotes",
         "tags",
-        "technology,famous-quotes"
+        "technology,famous-quotes",
+        "count",
+        "4"
       ],
       "line": 29,
-      "id": "agoda-test;validate-\"\u003cvalue\u003e\"-with-page-parameter;;3"
+      "id": "agoda-test;validate-\"\u003cvalue\u003e\"-with-\"\u003cparam1\u003e\"-parameter;;3"
     },
     {
       "cells": [
         "negative case with value 20000",
         "tags",
-        "20000"
+        "20000",
+        "count",
+        "0"
       ],
       "line": 30,
-      "id": "agoda-test;validate-\"\u003cvalue\u003e\"-with-page-parameter;;4"
+      "id": "agoda-test;validate-\"\u003cvalue\u003e\"-with-\"\u003cparam1\u003e\"-parameter;;4"
     },
     {
       "cells": [
         "negative case with value !@",
         "tags",
-        "!@"
+        "!@",
+        "count",
+        "0"
       ],
       "line": 31,
-      "id": "agoda-test;validate-\"\u003cvalue\u003e\"-with-page-parameter;;5"
+      "id": "agoda-test;validate-\"\u003cvalue\u003e\"-with-\"\u003cparam1\u003e\"-parameter;;5"
     },
     {
       "cells": [
         "negative case with value 2abc",
         "tags",
-        "2abc"
+        "2abc",
+        "count",
+        "0"
       ],
       "line": 32,
-      "id": "agoda-test;validate-\"\u003cvalue\u003e\"-with-page-parameter;;6"
+      "id": "agoda-test;validate-\"\u003cvalue\u003e\"-with-\"\u003cparam1\u003e\"-parameter;;6"
     },
     {
       "cells": [
         "negative case with value xyz",
         "tags",
-        "xyz"
+        "xyz",
+        "count",
+        "0"
       ],
       "line": 33,
-      "id": "agoda-test;validate-\"\u003cvalue\u003e\"-with-page-parameter;;7"
+      "id": "agoda-test;validate-\"\u003cvalue\u003e\"-with-\"\u003cparam1\u003e\"-parameter;;7"
     },
     {
       "cells": [
         "negative case with value -10",
         "tags",
-        "-10"
+        "-10",
+        "count",
+        "0"
       ],
       "line": 34,
-      "id": "agoda-test;validate-\"\u003cvalue\u003e\"-with-page-parameter;;8"
+      "id": "agoda-test;validate-\"\u003cvalue\u003e\"-with-\"\u003cparam1\u003e\"-parameter;;8"
     }
   ],
   "keyword": "Examples"
 });
 formatter.scenario({
   "line": 28,
-  "name": "Validate \"postive case with value love-happiness\" with page parameter",
+  "name": "Validate \"postive case with value love-happiness\" with \"tags\" parameter",
   "description": "",
-  "id": "agoda-test;validate-\"\u003cvalue\u003e\"-with-page-parameter;;2",
+  "id": "agoda-test;validate-\"\u003cvalue\u003e\"-with-\"\u003cparam1\u003e\"-parameter;;2",
   "type": "scenario",
   "keyword": "Scenario Outline",
   "tags": [
@@ -814,14 +868,18 @@ formatter.step({
 });
 formatter.step({
   "line": 24,
-  "name": "I validate \"Resultcode\" with \"200\"",
+  "name": "I validate \"count\" with \"13\"",
+  "matchedColumns": [
+    3,
+    4
+  ],
   "keyword": "Then "
 });
 formatter.match({
   "location": "StepDef.iAddTheurl()"
 });
 formatter.result({
-  "duration": 110100,
+  "duration": 108200,
   "status": "passed"
 });
 formatter.match({
@@ -838,38 +896,38 @@ formatter.match({
   "location": "StepDef.iAddParameters(String,String)"
 });
 formatter.result({
-  "duration": 116600,
+  "duration": 93900,
   "status": "passed"
 });
 formatter.match({
   "location": "StepDef.iExecuteAPI()"
 });
 formatter.result({
-  "duration": 967895800,
+  "duration": 973332100,
   "status": "passed"
 });
 formatter.match({
   "arguments": [
     {
-      "val": "Resultcode",
+      "val": "count",
       "offset": 12
     },
     {
-      "val": "200",
-      "offset": 30
+      "val": "13",
+      "offset": 25
     }
   ],
   "location": "StepDef.iValidateResponse(String,String)"
 });
 formatter.result({
-  "duration": 54100,
+  "duration": 772900,
   "status": "passed"
 });
 formatter.scenario({
   "line": 29,
-  "name": "Validate \"postive case with value technology,famous-quotes\" with page parameter",
+  "name": "Validate \"postive case with value technology,famous-quotes\" with \"tags\" parameter",
   "description": "",
-  "id": "agoda-test;validate-\"\u003cvalue\u003e\"-with-page-parameter;;3",
+  "id": "agoda-test;validate-\"\u003cvalue\u003e\"-with-\"\u003cparam1\u003e\"-parameter;;3",
   "type": "scenario",
   "keyword": "Scenario Outline",
   "tags": [
@@ -904,14 +962,18 @@ formatter.step({
 });
 formatter.step({
   "line": 24,
-  "name": "I validate \"Resultcode\" with \"200\"",
+  "name": "I validate \"count\" with \"4\"",
+  "matchedColumns": [
+    3,
+    4
+  ],
   "keyword": "Then "
 });
 formatter.match({
   "location": "StepDef.iAddTheurl()"
 });
 formatter.result({
-  "duration": 52100,
+  "duration": 55600,
   "status": "passed"
 });
 formatter.match({
@@ -928,38 +990,38 @@ formatter.match({
   "location": "StepDef.iAddParameters(String,String)"
 });
 formatter.result({
-  "duration": 72700,
+  "duration": 71200,
   "status": "passed"
 });
 formatter.match({
   "location": "StepDef.iExecuteAPI()"
 });
 formatter.result({
-  "duration": 975227500,
+  "duration": 953511700,
   "status": "passed"
 });
 formatter.match({
   "arguments": [
     {
-      "val": "Resultcode",
+      "val": "count",
       "offset": 12
     },
     {
-      "val": "200",
-      "offset": 30
+      "val": "4",
+      "offset": 25
     }
   ],
   "location": "StepDef.iValidateResponse(String,String)"
 });
 formatter.result({
-  "duration": 60700,
+  "duration": 390400,
   "status": "passed"
 });
 formatter.scenario({
   "line": 30,
-  "name": "Validate \"negative case with value 20000\" with page parameter",
+  "name": "Validate \"negative case with value 20000\" with \"tags\" parameter",
   "description": "",
-  "id": "agoda-test;validate-\"\u003cvalue\u003e\"-with-page-parameter;;4",
+  "id": "agoda-test;validate-\"\u003cvalue\u003e\"-with-\"\u003cparam1\u003e\"-parameter;;4",
   "type": "scenario",
   "keyword": "Scenario Outline",
   "tags": [
@@ -994,14 +1056,18 @@ formatter.step({
 });
 formatter.step({
   "line": 24,
-  "name": "I validate \"Resultcode\" with \"200\"",
+  "name": "I validate \"count\" with \"0\"",
+  "matchedColumns": [
+    3,
+    4
+  ],
   "keyword": "Then "
 });
 formatter.match({
   "location": "StepDef.iAddTheurl()"
 });
 formatter.result({
-  "duration": 80100,
+  "duration": 79900,
   "status": "passed"
 });
 formatter.match({
@@ -1018,38 +1084,38 @@ formatter.match({
   "location": "StepDef.iAddParameters(String,String)"
 });
 formatter.result({
-  "duration": 76800,
+  "duration": 62200,
   "status": "passed"
 });
 formatter.match({
   "location": "StepDef.iExecuteAPI()"
 });
 formatter.result({
-  "duration": 977750500,
+  "duration": 973954400,
   "status": "passed"
 });
 formatter.match({
   "arguments": [
     {
-      "val": "Resultcode",
+      "val": "count",
       "offset": 12
     },
     {
-      "val": "200",
-      "offset": 30
+      "val": "0",
+      "offset": 25
     }
   ],
   "location": "StepDef.iValidateResponse(String,String)"
 });
 formatter.result({
-  "duration": 56900,
+  "duration": 280500,
   "status": "passed"
 });
 formatter.scenario({
   "line": 31,
-  "name": "Validate \"negative case with value !@\" with page parameter",
+  "name": "Validate \"negative case with value !@\" with \"tags\" parameter",
   "description": "",
-  "id": "agoda-test;validate-\"\u003cvalue\u003e\"-with-page-parameter;;5",
+  "id": "agoda-test;validate-\"\u003cvalue\u003e\"-with-\"\u003cparam1\u003e\"-parameter;;5",
   "type": "scenario",
   "keyword": "Scenario Outline",
   "tags": [
@@ -1084,14 +1150,18 @@ formatter.step({
 });
 formatter.step({
   "line": 24,
-  "name": "I validate \"Resultcode\" with \"200\"",
+  "name": "I validate \"count\" with \"0\"",
+  "matchedColumns": [
+    3,
+    4
+  ],
   "keyword": "Then "
 });
 formatter.match({
   "location": "StepDef.iAddTheurl()"
 });
 formatter.result({
-  "duration": 55200,
+  "duration": 51900,
   "status": "passed"
 });
 formatter.match({
@@ -1108,38 +1178,38 @@ formatter.match({
   "location": "StepDef.iAddParameters(String,String)"
 });
 formatter.result({
-  "duration": 60700,
+  "duration": 54200,
   "status": "passed"
 });
 formatter.match({
   "location": "StepDef.iExecuteAPI()"
 });
 formatter.result({
-  "duration": 958576500,
+  "duration": 976052600,
   "status": "passed"
 });
 formatter.match({
   "arguments": [
     {
-      "val": "Resultcode",
+      "val": "count",
       "offset": 12
     },
     {
-      "val": "200",
-      "offset": 30
+      "val": "0",
+      "offset": 25
     }
   ],
   "location": "StepDef.iValidateResponse(String,String)"
 });
 formatter.result({
-  "duration": 54900,
+  "duration": 261400,
   "status": "passed"
 });
 formatter.scenario({
   "line": 32,
-  "name": "Validate \"negative case with value 2abc\" with page parameter",
+  "name": "Validate \"negative case with value 2abc\" with \"tags\" parameter",
   "description": "",
-  "id": "agoda-test;validate-\"\u003cvalue\u003e\"-with-page-parameter;;6",
+  "id": "agoda-test;validate-\"\u003cvalue\u003e\"-with-\"\u003cparam1\u003e\"-parameter;;6",
   "type": "scenario",
   "keyword": "Scenario Outline",
   "tags": [
@@ -1174,14 +1244,18 @@ formatter.step({
 });
 formatter.step({
   "line": 24,
-  "name": "I validate \"Resultcode\" with \"200\"",
+  "name": "I validate \"count\" with \"0\"",
+  "matchedColumns": [
+    3,
+    4
+  ],
   "keyword": "Then "
 });
 formatter.match({
   "location": "StepDef.iAddTheurl()"
 });
 formatter.result({
-  "duration": 50600,
+  "duration": 74700,
   "status": "passed"
 });
 formatter.match({
@@ -1198,38 +1272,38 @@ formatter.match({
   "location": "StepDef.iAddParameters(String,String)"
 });
 formatter.result({
-  "duration": 64500,
+  "duration": 53700,
   "status": "passed"
 });
 formatter.match({
   "location": "StepDef.iExecuteAPI()"
 });
 formatter.result({
-  "duration": 953373500,
+  "duration": 960698600,
   "status": "passed"
 });
 formatter.match({
   "arguments": [
     {
-      "val": "Resultcode",
+      "val": "count",
       "offset": 12
     },
     {
-      "val": "200",
-      "offset": 30
+      "val": "0",
+      "offset": 25
     }
   ],
   "location": "StepDef.iValidateResponse(String,String)"
 });
 formatter.result({
-  "duration": 66400,
+  "duration": 272700,
   "status": "passed"
 });
 formatter.scenario({
   "line": 33,
-  "name": "Validate \"negative case with value xyz\" with page parameter",
+  "name": "Validate \"negative case with value xyz\" with \"tags\" parameter",
   "description": "",
-  "id": "agoda-test;validate-\"\u003cvalue\u003e\"-with-page-parameter;;7",
+  "id": "agoda-test;validate-\"\u003cvalue\u003e\"-with-\"\u003cparam1\u003e\"-parameter;;7",
   "type": "scenario",
   "keyword": "Scenario Outline",
   "tags": [
@@ -1264,14 +1338,18 @@ formatter.step({
 });
 formatter.step({
   "line": 24,
-  "name": "I validate \"Resultcode\" with \"200\"",
+  "name": "I validate \"count\" with \"0\"",
+  "matchedColumns": [
+    3,
+    4
+  ],
   "keyword": "Then "
 });
 formatter.match({
   "location": "StepDef.iAddTheurl()"
 });
 formatter.result({
-  "duration": 118600,
+  "duration": 103600,
   "status": "passed"
 });
 formatter.match({
@@ -1288,38 +1366,38 @@ formatter.match({
   "location": "StepDef.iAddParameters(String,String)"
 });
 formatter.result({
-  "duration": 74300,
+  "duration": 91100,
   "status": "passed"
 });
 formatter.match({
   "location": "StepDef.iExecuteAPI()"
 });
 formatter.result({
-  "duration": 970407700,
+  "duration": 956250900,
   "status": "passed"
 });
 formatter.match({
   "arguments": [
     {
-      "val": "Resultcode",
+      "val": "count",
       "offset": 12
     },
     {
-      "val": "200",
-      "offset": 30
+      "val": "0",
+      "offset": 25
     }
   ],
   "location": "StepDef.iValidateResponse(String,String)"
 });
 formatter.result({
-  "duration": 58400,
+  "duration": 437100,
   "status": "passed"
 });
 formatter.scenario({
   "line": 34,
-  "name": "Validate \"negative case with value -10\" with page parameter",
+  "name": "Validate \"negative case with value -10\" with \"tags\" parameter",
   "description": "",
-  "id": "agoda-test;validate-\"\u003cvalue\u003e\"-with-page-parameter;;8",
+  "id": "agoda-test;validate-\"\u003cvalue\u003e\"-with-\"\u003cparam1\u003e\"-parameter;;8",
   "type": "scenario",
   "keyword": "Scenario Outline",
   "tags": [
@@ -1354,14 +1432,18 @@ formatter.step({
 });
 formatter.step({
   "line": 24,
-  "name": "I validate \"Resultcode\" with \"200\"",
+  "name": "I validate \"count\" with \"0\"",
+  "matchedColumns": [
+    3,
+    4
+  ],
   "keyword": "Then "
 });
 formatter.match({
   "location": "StepDef.iAddTheurl()"
 });
 formatter.result({
-  "duration": 56100,
+  "duration": 62100,
   "status": "passed"
 });
 formatter.match({
@@ -1378,38 +1460,38 @@ formatter.match({
   "location": "StepDef.iAddParameters(String,String)"
 });
 formatter.result({
-  "duration": 82700,
+  "duration": 75400,
   "status": "passed"
 });
 formatter.match({
   "location": "StepDef.iExecuteAPI()"
 });
 formatter.result({
-  "duration": 977453600,
+  "duration": 954322800,
   "status": "passed"
 });
 formatter.match({
   "arguments": [
     {
-      "val": "Resultcode",
+      "val": "count",
       "offset": 12
     },
     {
-      "val": "200",
-      "offset": 30
+      "val": "0",
+      "offset": 25
     }
   ],
   "location": "StepDef.iValidateResponse(String,String)"
 });
 formatter.result({
-  "duration": 56600,
+  "duration": 287500,
   "status": "passed"
 });
 formatter.scenarioOutline({
   "line": 37,
-  "name": "Validate \"\u003cvalue\u003e\" with page parameter",
+  "name": "Validate \"\u003cvalue\u003e\" with \"\u003cparam1\u003e\" parameter",
   "description": "",
-  "id": "agoda-test;validate-\"\u003cvalue\u003e\"-with-page-parameter",
+  "id": "agoda-test;validate-\"\u003cvalue\u003e\"-with-\"\u003cparam1\u003e\"-parameter",
   "type": "scenario_outline",
   "keyword": "Scenario Outline",
   "tags": [
@@ -1440,95 +1522,111 @@ formatter.step({
 });
 formatter.step({
   "line": 41,
-  "name": "I validate \"Resultcode\" with \"200\"",
+  "name": "I validate \"\u003cvalidate1\u003e\" with \"\u003cvalidate_val\u003e\"",
   "keyword": "Then "
 });
 formatter.examples({
   "line": 43,
   "name": "",
   "description": "",
-  "id": "agoda-test;validate-\"\u003cvalue\u003e\"-with-page-parameter;",
+  "id": "agoda-test;validate-\"\u003cvalue\u003e\"-with-\"\u003cparam1\u003e\"-parameter;",
   "rows": [
     {
       "cells": [
         "value",
         "param1",
-        "param_val"
+        "param_val",
+        "validate1",
+        "validate_val"
       ],
       "line": 44,
-      "id": "agoda-test;validate-\"\u003cvalue\u003e\"-with-page-parameter;;1"
+      "id": "agoda-test;validate-\"\u003cvalue\u003e\"-with-\"\u003cparam1\u003e\"-parameter;;1"
     },
     {
       "cells": [
         "postive case with value albert-einstein",
         "author",
-        "albert-einstein"
+        "albert-einstein",
+        "count",
+        "20"
       ],
       "line": 45,
-      "id": "agoda-test;validate-\"\u003cvalue\u003e\"-with-page-parameter;;2"
+      "id": "agoda-test;validate-\"\u003cvalue\u003e\"-with-\"\u003cparam1\u003e\"-parameter;;2"
     },
     {
       "cells": [
         "postive case with value asd@-eins232$3n",
         "author",
-        "asd@-eins232$3n"
+        "asd@-eins232$3n",
+        "count",
+        "0"
       ],
       "line": 46,
-      "id": "agoda-test;validate-\"\u003cvalue\u003e\"-with-page-parameter;;3"
+      "id": "agoda-test;validate-\"\u003cvalue\u003e\"-with-\"\u003cparam1\u003e\"-parameter;;3"
     },
     {
       "cells": [
         "negative case with value 20000",
         "author",
-        "20000"
+        "20000",
+        "count",
+        "0"
       ],
       "line": 47,
-      "id": "agoda-test;validate-\"\u003cvalue\u003e\"-with-page-parameter;;4"
+      "id": "agoda-test;validate-\"\u003cvalue\u003e\"-with-\"\u003cparam1\u003e\"-parameter;;4"
     },
     {
       "cells": [
         "negative case with value !@",
         "author",
-        "!@"
+        "!@",
+        "count",
+        "0"
       ],
       "line": 48,
-      "id": "agoda-test;validate-\"\u003cvalue\u003e\"-with-page-parameter;;5"
+      "id": "agoda-test;validate-\"\u003cvalue\u003e\"-with-\"\u003cparam1\u003e\"-parameter;;5"
     },
     {
       "cells": [
         "negative case with value 2abc",
         "author",
-        "2abc"
+        "2abc",
+        "count",
+        "0"
       ],
       "line": 49,
-      "id": "agoda-test;validate-\"\u003cvalue\u003e\"-with-page-parameter;;6"
+      "id": "agoda-test;validate-\"\u003cvalue\u003e\"-with-\"\u003cparam1\u003e\"-parameter;;6"
     },
     {
       "cells": [
         "negative case with value xyz",
         "author",
-        "xyz"
+        "xyz",
+        "count",
+        "0"
       ],
       "line": 50,
-      "id": "agoda-test;validate-\"\u003cvalue\u003e\"-with-page-parameter;;7"
+      "id": "agoda-test;validate-\"\u003cvalue\u003e\"-with-\"\u003cparam1\u003e\"-parameter;;7"
     },
     {
       "cells": [
         "negative case with value -10",
         "author",
-        "-10"
+        "-10",
+        "count",
+        "0"
       ],
       "line": 51,
-      "id": "agoda-test;validate-\"\u003cvalue\u003e\"-with-page-parameter;;8"
+      "id": "agoda-test;validate-\"\u003cvalue\u003e\"-with-\"\u003cparam1\u003e\"-parameter;;8"
     }
   ],
   "keyword": "Examples"
 });
 formatter.scenario({
   "line": 45,
-  "name": "Validate \"postive case with value albert-einstein\" with page parameter",
+  "name": "Validate \"postive case with value albert-einstein\" with \"author\" parameter",
   "description": "",
-  "id": "agoda-test;validate-\"\u003cvalue\u003e\"-with-page-parameter;;2",
+  "id": "agoda-test;validate-\"\u003cvalue\u003e\"-with-\"\u003cparam1\u003e\"-parameter;;2",
   "type": "scenario",
   "keyword": "Scenario Outline",
   "tags": [
@@ -1563,14 +1661,18 @@ formatter.step({
 });
 formatter.step({
   "line": 41,
-  "name": "I validate \"Resultcode\" with \"200\"",
+  "name": "I validate \"count\" with \"20\"",
+  "matchedColumns": [
+    3,
+    4
+  ],
   "keyword": "Then "
 });
 formatter.match({
   "location": "StepDef.iAddTheurl()"
 });
 formatter.result({
-  "duration": 84600,
+  "duration": 49000,
   "status": "passed"
 });
 formatter.match({
@@ -1587,38 +1689,38 @@ formatter.match({
   "location": "StepDef.iAddParameters(String,String)"
 });
 formatter.result({
-  "duration": 93400,
+  "duration": 59800,
   "status": "passed"
 });
 formatter.match({
   "location": "StepDef.iExecuteAPI()"
 });
 formatter.result({
-  "duration": 968933200,
+  "duration": 970342300,
   "status": "passed"
 });
 formatter.match({
   "arguments": [
     {
-      "val": "Resultcode",
+      "val": "count",
       "offset": 12
     },
     {
-      "val": "200",
-      "offset": 30
+      "val": "20",
+      "offset": 25
     }
   ],
   "location": "StepDef.iValidateResponse(String,String)"
 });
 formatter.result({
-  "duration": 55200,
+  "duration": 737700,
   "status": "passed"
 });
 formatter.scenario({
   "line": 46,
-  "name": "Validate \"postive case with value asd@-eins232$3n\" with page parameter",
+  "name": "Validate \"postive case with value asd@-eins232$3n\" with \"author\" parameter",
   "description": "",
-  "id": "agoda-test;validate-\"\u003cvalue\u003e\"-with-page-parameter;;3",
+  "id": "agoda-test;validate-\"\u003cvalue\u003e\"-with-\"\u003cparam1\u003e\"-parameter;;3",
   "type": "scenario",
   "keyword": "Scenario Outline",
   "tags": [
@@ -1653,14 +1755,18 @@ formatter.step({
 });
 formatter.step({
   "line": 41,
-  "name": "I validate \"Resultcode\" with \"200\"",
+  "name": "I validate \"count\" with \"0\"",
+  "matchedColumns": [
+    3,
+    4
+  ],
   "keyword": "Then "
 });
 formatter.match({
   "location": "StepDef.iAddTheurl()"
 });
 formatter.result({
-  "duration": 55900,
+  "duration": 61400,
   "status": "passed"
 });
 formatter.match({
@@ -1677,38 +1783,38 @@ formatter.match({
   "location": "StepDef.iAddParameters(String,String)"
 });
 formatter.result({
-  "duration": 61500,
+  "duration": 57900,
   "status": "passed"
 });
 formatter.match({
   "location": "StepDef.iExecuteAPI()"
 });
 formatter.result({
-  "duration": 974586300,
+  "duration": 965393500,
   "status": "passed"
 });
 formatter.match({
   "arguments": [
     {
-      "val": "Resultcode",
+      "val": "count",
       "offset": 12
     },
     {
-      "val": "200",
-      "offset": 30
+      "val": "0",
+      "offset": 25
     }
   ],
   "location": "StepDef.iValidateResponse(String,String)"
 });
 formatter.result({
-  "duration": 54500,
+  "duration": 286700,
   "status": "passed"
 });
 formatter.scenario({
   "line": 47,
-  "name": "Validate \"negative case with value 20000\" with page parameter",
+  "name": "Validate \"negative case with value 20000\" with \"author\" parameter",
   "description": "",
-  "id": "agoda-test;validate-\"\u003cvalue\u003e\"-with-page-parameter;;4",
+  "id": "agoda-test;validate-\"\u003cvalue\u003e\"-with-\"\u003cparam1\u003e\"-parameter;;4",
   "type": "scenario",
   "keyword": "Scenario Outline",
   "tags": [
@@ -1743,14 +1849,18 @@ formatter.step({
 });
 formatter.step({
   "line": 41,
-  "name": "I validate \"Resultcode\" with \"200\"",
+  "name": "I validate \"count\" with \"0\"",
+  "matchedColumns": [
+    3,
+    4
+  ],
   "keyword": "Then "
 });
 formatter.match({
   "location": "StepDef.iAddTheurl()"
 });
 formatter.result({
-  "duration": 320300,
+  "duration": 303700,
   "status": "passed"
 });
 formatter.match({
@@ -1767,38 +1877,38 @@ formatter.match({
   "location": "StepDef.iAddParameters(String,String)"
 });
 formatter.result({
-  "duration": 247100,
+  "duration": 238400,
   "status": "passed"
 });
 formatter.match({
   "location": "StepDef.iExecuteAPI()"
 });
 formatter.result({
-  "duration": 970478400,
+  "duration": 936731000,
   "status": "passed"
 });
 formatter.match({
   "arguments": [
     {
-      "val": "Resultcode",
+      "val": "count",
       "offset": 12
     },
     {
-      "val": "200",
-      "offset": 30
+      "val": "0",
+      "offset": 25
     }
   ],
   "location": "StepDef.iValidateResponse(String,String)"
 });
 formatter.result({
-  "duration": 329400,
+  "duration": 548200,
   "status": "passed"
 });
 formatter.scenario({
   "line": 48,
-  "name": "Validate \"negative case with value !@\" with page parameter",
+  "name": "Validate \"negative case with value !@\" with \"author\" parameter",
   "description": "",
-  "id": "agoda-test;validate-\"\u003cvalue\u003e\"-with-page-parameter;;5",
+  "id": "agoda-test;validate-\"\u003cvalue\u003e\"-with-\"\u003cparam1\u003e\"-parameter;;5",
   "type": "scenario",
   "keyword": "Scenario Outline",
   "tags": [
@@ -1833,14 +1943,18 @@ formatter.step({
 });
 formatter.step({
   "line": 41,
-  "name": "I validate \"Resultcode\" with \"200\"",
+  "name": "I validate \"count\" with \"0\"",
+  "matchedColumns": [
+    3,
+    4
+  ],
   "keyword": "Then "
 });
 formatter.match({
   "location": "StepDef.iAddTheurl()"
 });
 formatter.result({
-  "duration": 66700,
+  "duration": 58900,
   "status": "passed"
 });
 formatter.match({
@@ -1857,38 +1971,38 @@ formatter.match({
   "location": "StepDef.iAddParameters(String,String)"
 });
 formatter.result({
-  "duration": 92500,
+  "duration": 61700,
   "status": "passed"
 });
 formatter.match({
   "location": "StepDef.iExecuteAPI()"
 });
 formatter.result({
-  "duration": 958121000,
+  "duration": 963630500,
   "status": "passed"
 });
 formatter.match({
   "arguments": [
     {
-      "val": "Resultcode",
+      "val": "count",
       "offset": 12
     },
     {
-      "val": "200",
-      "offset": 30
+      "val": "0",
+      "offset": 25
     }
   ],
   "location": "StepDef.iValidateResponse(String,String)"
 });
 formatter.result({
-  "duration": 63300,
+  "duration": 260500,
   "status": "passed"
 });
 formatter.scenario({
   "line": 49,
-  "name": "Validate \"negative case with value 2abc\" with page parameter",
+  "name": "Validate \"negative case with value 2abc\" with \"author\" parameter",
   "description": "",
-  "id": "agoda-test;validate-\"\u003cvalue\u003e\"-with-page-parameter;;6",
+  "id": "agoda-test;validate-\"\u003cvalue\u003e\"-with-\"\u003cparam1\u003e\"-parameter;;6",
   "type": "scenario",
   "keyword": "Scenario Outline",
   "tags": [
@@ -1923,14 +2037,18 @@ formatter.step({
 });
 formatter.step({
   "line": 41,
-  "name": "I validate \"Resultcode\" with \"200\"",
+  "name": "I validate \"count\" with \"0\"",
+  "matchedColumns": [
+    3,
+    4
+  ],
   "keyword": "Then "
 });
 formatter.match({
   "location": "StepDef.iAddTheurl()"
 });
 formatter.result({
-  "duration": 44300,
+  "duration": 70600,
   "status": "passed"
 });
 formatter.match({
@@ -1947,38 +2065,38 @@ formatter.match({
   "location": "StepDef.iAddParameters(String,String)"
 });
 formatter.result({
-  "duration": 47600,
+  "duration": 75200,
   "status": "passed"
 });
 formatter.match({
   "location": "StepDef.iExecuteAPI()"
 });
 formatter.result({
-  "duration": 979716000,
+  "duration": 961871400,
   "status": "passed"
 });
 formatter.match({
   "arguments": [
     {
-      "val": "Resultcode",
+      "val": "count",
       "offset": 12
     },
     {
-      "val": "200",
-      "offset": 30
+      "val": "0",
+      "offset": 25
     }
   ],
   "location": "StepDef.iValidateResponse(String,String)"
 });
 formatter.result({
-  "duration": 61200,
+  "duration": 284700,
   "status": "passed"
 });
 formatter.scenario({
   "line": 50,
-  "name": "Validate \"negative case with value xyz\" with page parameter",
+  "name": "Validate \"negative case with value xyz\" with \"author\" parameter",
   "description": "",
-  "id": "agoda-test;validate-\"\u003cvalue\u003e\"-with-page-parameter;;7",
+  "id": "agoda-test;validate-\"\u003cvalue\u003e\"-with-\"\u003cparam1\u003e\"-parameter;;7",
   "type": "scenario",
   "keyword": "Scenario Outline",
   "tags": [
@@ -2013,14 +2131,18 @@ formatter.step({
 });
 formatter.step({
   "line": 41,
-  "name": "I validate \"Resultcode\" with \"200\"",
+  "name": "I validate \"count\" with \"0\"",
+  "matchedColumns": [
+    3,
+    4
+  ],
   "keyword": "Then "
 });
 formatter.match({
   "location": "StepDef.iAddTheurl()"
 });
 formatter.result({
-  "duration": 60900,
+  "duration": 41500,
   "status": "passed"
 });
 formatter.match({
@@ -2037,38 +2159,38 @@ formatter.match({
   "location": "StepDef.iAddParameters(String,String)"
 });
 formatter.result({
-  "duration": 64400,
+  "duration": 47800,
   "status": "passed"
 });
 formatter.match({
   "location": "StepDef.iExecuteAPI()"
 });
 formatter.result({
-  "duration": 944521700,
+  "duration": 962628900,
   "status": "passed"
 });
 formatter.match({
   "arguments": [
     {
-      "val": "Resultcode",
+      "val": "count",
       "offset": 12
     },
     {
-      "val": "200",
-      "offset": 30
+      "val": "0",
+      "offset": 25
     }
   ],
   "location": "StepDef.iValidateResponse(String,String)"
 });
 formatter.result({
-  "duration": 54600,
+  "duration": 239300,
   "status": "passed"
 });
 formatter.scenario({
   "line": 51,
-  "name": "Validate \"negative case with value -10\" with page parameter",
+  "name": "Validate \"negative case with value -10\" with \"author\" parameter",
   "description": "",
-  "id": "agoda-test;validate-\"\u003cvalue\u003e\"-with-page-parameter;;8",
+  "id": "agoda-test;validate-\"\u003cvalue\u003e\"-with-\"\u003cparam1\u003e\"-parameter;;8",
   "type": "scenario",
   "keyword": "Scenario Outline",
   "tags": [
@@ -2103,14 +2225,18 @@ formatter.step({
 });
 formatter.step({
   "line": 41,
-  "name": "I validate \"Resultcode\" with \"200\"",
+  "name": "I validate \"count\" with \"0\"",
+  "matchedColumns": [
+    3,
+    4
+  ],
   "keyword": "Then "
 });
 formatter.match({
   "location": "StepDef.iAddTheurl()"
 });
 formatter.result({
-  "duration": 55300,
+  "duration": 50600,
   "status": "passed"
 });
 formatter.match({
@@ -2127,31 +2253,31 @@ formatter.match({
   "location": "StepDef.iAddParameters(String,String)"
 });
 formatter.result({
-  "duration": 58100,
+  "duration": 46800,
   "status": "passed"
 });
 formatter.match({
   "location": "StepDef.iExecuteAPI()"
 });
 formatter.result({
-  "duration": 991032800,
+  "duration": 972622600,
   "status": "passed"
 });
 formatter.match({
   "arguments": [
     {
-      "val": "Resultcode",
+      "val": "count",
       "offset": 12
     },
     {
-      "val": "200",
-      "offset": 30
+      "val": "0",
+      "offset": 25
     }
   ],
   "location": "StepDef.iValidateResponse(String,String)"
 });
 formatter.result({
-  "duration": 50000,
+  "duration": 627000,
   "status": "passed"
 });
 });
